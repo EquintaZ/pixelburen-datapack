@@ -1,0 +1,18 @@
+{
+  "pack": {
+    "id": "pixelburen",
+    "description": [
+      {
+        "text": "Pixelburen"
+      },
+      {
+        "text": "\nCreated by EquintaZ"
+      }
+    ],
+    "pack_format": 77,
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 77
+    }
+  }
+}

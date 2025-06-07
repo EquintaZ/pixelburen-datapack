@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "nbt": "{Tags:[\"pixelburen.epic\"]}",
+    "predicate": {
+      "type": "minecraft:distance",
+      "distance": {
+        "absolute": {
+          "min": 5,
+          "max": 10
+        }
+      }
+    }
+  }
+}

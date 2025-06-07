@@ -1,0 +1,51 @@
+{
+  "parent": "pixelburen:epic/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": "Staat niet op de kaart",
+    "description": "Samen met Epic een kaart maken.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:filled_map"
+          }
+        ],
+        "player": {
+          "location": {
+            "predicate": {
+              "type": "minecraft:location_check",
+              "predicate": {
+                "type": "minecraft:entity_check",
+                "entity": {
+                  "type": "minecraft:player",
+                  "predicate": {
+                    "nbt": "{Tags:[\"pixelburen.epic\"]}"
+                  }
+                },
+                "predicate": {
+                  "type": "minecraft:distance",
+                  "distance": {
+                    "absolute": {
+                      "max": 10.0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

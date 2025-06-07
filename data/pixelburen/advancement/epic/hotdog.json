@@ -1,0 +1,26 @@
+{
+  "parent": "pixelburen:epic/root",
+  "display": {
+    "description": {
+      "text": "Samen met Epic opgegeten?"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "text": "Hotdog"
+    }
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wolf"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMxNGViZmQ0OTgzOTZhOWMyOWYwZDFmN2RlYzA3NDcyMmVlNWFjOWM4ODg0YmM2Y2VkMjc0NmQ2YmYxOTE2MiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Rollercoaster Tycoon",
+    "description": "Spanning en sensatie met GamerBaas.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "pixelburen:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}
