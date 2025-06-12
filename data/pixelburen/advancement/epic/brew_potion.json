@@ -17,23 +17,10 @@
       "trigger": "minecraft:brewed_potion",
       "conditions": {
         "player": {
-          "location": {
-            "predicate": {
-              "type": "minecraft:entity_check",
-              "entity": {
-                "type": "minecraft:player"
-              },
-              "condition": "pixelburen:epic_nearby"
-            }
-          }
+          "nbt": "{Tags:[\"pixelburen.near_epic\"]}"
         }
       }
     }
   },
-  "requirements": [
-    [
-      "potion"
-    ]
-  ],
   "sends_telemetry_event": true
 }

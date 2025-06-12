@@ -21,28 +21,7 @@
           }
         ],
         "player": {
-          "location": {
-            "predicate": {
-              "type": "minecraft:location_check",
-              "predicate": {
-                "type": "minecraft:entity_check",
-                "entity": {
-                  "type": "minecraft:player",
-                  "predicate": {
-                    "nbt": "{Tags:[\"pixelburen.epic\"]}"
-                  }
-                },
-                "predicate": {
-                  "type": "minecraft:distance",
-                  "distance": {
-                    "absolute": {
-                      "max": 10.0
-                    }
-                  }
-                }
-              }
-            }
-          }
+          "nbt": "{Tags:[\"pixelburen.near_epic\"]}"
         }
       }
     }

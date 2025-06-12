@@ -6,10 +6,10 @@
       "count": 1
     },
     "title": "Is het een hotdog?",
-    "description": "Kijk naar epic's goddelijke lichaam door zijn favoriete item.",
+    "description": "Kijk naar Epic's goddelijke lichaam door zijn favoriete item.",
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
   "criteria": {
@@ -27,10 +27,7 @@
               "type_specific": {
                 "type": "minecraft:player",
                 "looking_at": {
-                  "type": "minecraft:player",
-                  "predicate": {
-                    "nbt": "{Tags:[\"pixelburen.epic\"]}"
-                  }
+                  "nbt": "{Tags:[\"pixelburen.epic\"]}"
                 }
               }
             }

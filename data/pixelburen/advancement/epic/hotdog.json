@@ -5,11 +5,20 @@
       "text": "Samen met Epic opgegeten?"
     },
     "icon": {
-      "count": 1,
-      "id": "minecraft:cooked_beef"
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhODQ2MTFjOGM4OTU4MzM2ZjY0ZDU4ZGMyMDljN2FiOTU4ZGRkOTlkMmY1ODc2ZGFkNzI2M2Y3MGVjZWIyNyJ9fX0="
+            }
+          ]
+        }
+      }
     },
     "title": {
-      "text": "Hotdog"
+      "text": "Wilde hotdog"
     }
   },
   "criteria": {
