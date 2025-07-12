@@ -1,0 +1,618 @@
+{
+  "parent": "pixelburen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:wither_rose"
+    },
+    "title": "Over m'n lijk",
+    "description": "Niemand heeft het eeuwige leven. Maar je kunt ook overdrijven...",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "death_1": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_2": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_3": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_4": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_5": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_6": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_7": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_8": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_9": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_10": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_11": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_12": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_13": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_14": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_15": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_16": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_17": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_18": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_19": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_20": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_21": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_22": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_23": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_24": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_25": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_26": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_27": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_28": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_29": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_30": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_31": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_32": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_33": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_34": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_35": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_36": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_37": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_38": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_39": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_40": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_41": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_42": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_43": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_44": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_45": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_46": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_47": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_48": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_49": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_50": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_51": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_52": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_53": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_54": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_55": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_56": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_57": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_58": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_59": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_60": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_61": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_62": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_63": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_64": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_65": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_66": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_67": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_68": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_69": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_70": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_71": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_72": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_73": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_74": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_75": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_76": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_77": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_78": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_79": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_80": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_81": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_82": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_83": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_84": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_85": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_86": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_87": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_88": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_89": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_90": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_91": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_92": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_93": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_94": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_95": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_96": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_97": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_98": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_99": {
+      "trigger": "minecraft:impossible"
+    },
+    "death_100": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "death_1"
+    ],
+    [
+      "death_2"
+    ],
+    [
+      "death_3"
+    ],
+    [
+      "death_4"
+    ],
+    [
+      "death_5"
+    ],
+    [
+      "death_6"
+    ],
+    [
+      "death_7"
+    ],
+    [
+      "death_8"
+    ],
+    [
+      "death_9"
+    ],
+    [
+      "death_10"
+    ],
+    [
+      "death_11"
+    ],
+    [
+      "death_12"
+    ],
+    [
+      "death_13"
+    ],
+    [
+      "death_14"
+    ],
+    [
+      "death_15"
+    ],
+    [
+      "death_16"
+    ],
+    [
+      "death_17"
+    ],
+    [
+      "death_18"
+    ],
+    [
+      "death_19"
+    ],
+    [
+      "death_20"
+    ],
+    [
+      "death_21"
+    ],
+    [
+      "death_22"
+    ],
+    [
+      "death_23"
+    ],
+    [
+      "death_24"
+    ],
+    [
+      "death_25"
+    ],
+    [
+      "death_26"
+    ],
+    [
+      "death_27"
+    ],
+    [
+      "death_28"
+    ],
+    [
+      "death_29"
+    ],
+    [
+      "death_30"
+    ],
+    [
+      "death_31"
+    ],
+    [
+      "death_32"
+    ],
+    [
+      "death_33"
+    ],
+    [
+      "death_34"
+    ],
+    [
+      "death_35"
+    ],
+    [
+      "death_36"
+    ],
+    [
+      "death_37"
+    ],
+    [
+      "death_38"
+    ],
+    [
+      "death_39"
+    ],
+    [
+      "death_40"
+    ],
+    [
+      "death_41"
+    ],
+    [
+      "death_42"
+    ],
+    [
+      "death_43"
+    ],
+    [
+      "death_44"
+    ],
+    [
+      "death_45"
+    ],
+    [
+      "death_46"
+    ],
+    [
+      "death_47"
+    ],
+    [
+      "death_48"
+    ],
+    [
+      "death_49"
+    ],
+    [
+      "death_50"
+    ],
+    [
+      "death_51"
+    ],
+    [
+      "death_52"
+    ],
+    [
+      "death_53"
+    ],
+    [
+      "death_54"
+    ],
+    [
+      "death_55"
+    ],
+    [
+      "death_56"
+    ],
+    [
+      "death_57"
+    ],
+    [
+      "death_58"
+    ],
+    [
+      "death_59"
+    ],
+    [
+      "death_60"
+    ],
+    [
+      "death_61"
+    ],
+    [
+      "death_62"
+    ],
+    [
+      "death_63"
+    ],
+    [
+      "death_64"
+    ],
+    [
+      "death_65"
+    ],
+    [
+      "death_66"
+    ],
+    [
+      "death_67"
+    ],
+    [
+      "death_68"
+    ],
+    [
+      "death_69"
+    ],
+    [
+      "death_70"
+    ],
+    [
+      "death_71"
+    ],
+    [
+      "death_72"
+    ],
+    [
+      "death_73"
+    ],
+    [
+      "death_74"
+    ],
+    [
+      "death_75"
+    ],
+    [
+      "death_76"
+    ],
+    [
+      "death_77"
+    ],
+    [
+      "death_78"
+    ],
+    [
+      "death_79"
+    ],
+    [
+      "death_80"
+    ],
+    [
+      "death_81"
+    ],
+    [
+      "death_82"
+    ],
+    [
+      "death_83"
+    ],
+    [
+      "death_84"
+    ],
+    [
+      "death_85"
+    ],
+    [
+      "death_86"
+    ],
+    [
+      "death_87"
+    ],
+    [
+      "death_88"
+    ],
+    [
+      "death_89"
+    ],
+    [
+      "death_90"
+    ],
+    [
+      "death_91"
+    ],
+    [
+      "death_92"
+    ],
+    [
+      "death_93"
+    ],
+    [
+      "death_94"
+    ],
+    [
+      "death_95"
+    ],
+    [
+      "death_96"
+    ],
+    [
+      "death_97"
+    ],
+    [
+      "death_98"
+    ],
+    [
+      "death_99"
+    ],
+    [
+      "death_100"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
