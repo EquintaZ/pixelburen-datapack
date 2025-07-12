@@ -1,0 +1,2 @@
+execute as @a at @s if block ~ ~ ~ minecraft:lever[powered=true] run summon creeper ~ ~ ~ {CustomName:"a Redstone accident",CustomNameVisible:0b,ExplosionRadius:3,Fuse:0,ignited:1b}
+execute as @a at @s if block ~ ~ ~ minecraft:stone_button[powered=true] run summon creeper ~ ~ ~ {CustomName:"a Redstone accident",CustomNameVisible:0b,ExplosionRadius:3,Fuse:0,ignited:1b}

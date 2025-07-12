@@ -26,8 +26,8 @@
   },
   "rewards": {
     "recipes": [
-      "pixelburen:slime_ball_learned",
-      "pixelburen:slime_block_learned"
+      "pixelburen:slime_ball",
+      "pixelburen:slime_block"
     ]
   }
 }
