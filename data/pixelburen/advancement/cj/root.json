@@ -1,0 +1,30 @@
+{
+  "parent": "pixelburen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWQ2Y2E0YmY5MDYyNzc1NGQ3ZWI1YzM1ZmNlZTcxNWIxNzExYzdiOTg0NDRlYTY0ZDRhNGRkYmZhOGZkYzNjIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Grinden met CJ",
+    "description": "Lekker blokkies verzamelen zoals CJ dat altijd doet.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}
