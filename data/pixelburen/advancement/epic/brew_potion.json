@@ -1,16 +1,19 @@
 {
   "parent": "pixelburen:epic/root",
   "display": {
-    "description": {
-      "text": "Samen met Epic een vies drankje brouwen!"
-    },
     "icon": {
-      "count": 1,
       "id": "minecraft:potion"
     },
     "title": {
       "text": "Lekker vies drankje"
-    }
+    },
+    "description": {
+      "text": "Samen met Epic een vies drankje brouwen!"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "criteria": {
     "potion": {

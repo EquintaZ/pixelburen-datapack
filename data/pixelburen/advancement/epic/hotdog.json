@@ -1,9 +1,6 @@
 {
-  "parent": "pixelburen:epic/root",
+  "parent": "pixelburen:epic/brew_potion",
   "display": {
-    "description": {
-      "text": "Samen met Epic opgegeten?"
-    },
     "icon": {
       "id": "minecraft:player_head",
       "components": {
@@ -19,7 +16,14 @@
     },
     "title": {
       "text": "Wilde hotdog"
-    }
+    },
+    "description": {
+      "text": "Samen met Epic opgegeten?"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
   },
   "criteria": {
     "requirement": {

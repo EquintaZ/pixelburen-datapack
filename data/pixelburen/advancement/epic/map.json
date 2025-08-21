@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:epic/root",
+  "parent": "pixelburen:epic/spyglass_at_epic",
   "display": {
     "icon": {
       "id": "minecraft:filled_map"
