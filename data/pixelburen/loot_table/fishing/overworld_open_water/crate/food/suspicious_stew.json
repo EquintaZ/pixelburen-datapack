@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_stew_effect",
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "min": 45,
+                    "max": 90
+                  }
+                },
+                {
+                  "type": "minecraft:absorption",
+                  "duration": {
+                    "min": 90,
+                    "max": 150
+                  }
+                },
+                {
+                  "type": "minecraft:haste",
+                  "duration": {
+                    "min": 60,
+                    "max": 120
+                  }
+                },
+                {
+                  "type": "minecraft:resistance",
+                  "duration": {
+                    "min": 45,
+                    "max": 90
+                  }
+                },
+                {
+                  "type": "minecraft:speed",
+                  "duration": {
+                    "min": 60,
+                    "max": 90
+                  }
+                },
+                {
+                  "type": "minecraft:hunger",
+                  "duration": {
+                    "min": 30,
+                    "max": 60
+                  }
+                },
+                {
+                  "type": "minecraft:nausea",
+                  "duration": {
+                    "min": 15,
+                    "max": 45
+                  }
+                },
+                {
+                  "type": "minecraft:poison",
+                  "duration": {
+                    "min": 15,
+                    "max": 30
+                  }
+                },
+                {
+                  "type": "minecraft:unluck",
+                  "duration": {
+                    "min": 120,
+                    "max": 240
+                  }
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "min": 20,
+                    "max": 60
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

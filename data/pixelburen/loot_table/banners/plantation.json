@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Old Banner",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  { "pattern": "minecraft:creeper",         "color": "pink"     },
+                  { "pattern": "minecraft:half_horizontal", "color": "gray"     },
+                  { "pattern": "minecraft:triangle_top",    "color": "lime"     },
+                  { "pattern": "minecraft:stripe_center",   "color": "brown"    },
+                  { "pattern": "minecraft:stripe_bottom",   "color": "magenta"  },
+                  { "pattern": "minecraft:stripe_top",      "color": "lime"     },
+                  { "pattern": "minecraft:curly_border",    "color": "gray"     },
+                  { "pattern": "minecraft:border",          "color": "gray"     }
+                ],
+                "minecraft:base_color": "gray",
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["minecraft:banner_patterns"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

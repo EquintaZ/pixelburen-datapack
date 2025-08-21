@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/iron",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:powerhouse"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/iron",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.4,
+                "max": 0.85
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:small_starts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

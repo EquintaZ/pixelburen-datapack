@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Old Banner",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  { "pattern": "minecraft:triangle_top",           "color": "black"  },
+                  { "pattern": "minecraft:flower",                 "color": "black"  },
+                  { "pattern": "minecraft:border",                 "color": "black"  },
+                  { "pattern": "minecraft:half_horizontal_bottom", "color": "orange" },
+                  { "pattern": "minecraft:stripe_bottom",          "color": "red"    },
+                  { "pattern": "minecraft:curly_border",           "color": "black"  },
+                  { "pattern": "minecraft:triangles_bottom",       "color": "black"  },
+                  { "pattern": "minecraft:creeper",                "color": "black"  },
+                  { "pattern": "minecraft:circle",                 "color": "black"  }
+                ],
+                "minecraft:base_color": "lime",
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["minecraft:banner_patterns"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

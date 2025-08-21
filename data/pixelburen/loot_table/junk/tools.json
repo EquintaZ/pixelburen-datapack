@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/wooden"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/stone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/golden",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:enchant_mid",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk/armor/leather"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk/armor/golden",
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:enchant_mid",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_damage",
+          "damage": {
+            "min": 0.45,
+            "max": 0.85
+          }
+        }
+      ]
+    }
+  ]
+}

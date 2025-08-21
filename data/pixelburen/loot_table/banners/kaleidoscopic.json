@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pink_banner",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Old Banner",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  { "pattern": "minecraft:triangle_bottom", "color": "black" },
+                  { "pattern": "minecraft:triangle_bottom", "color": "purple" },
+                  { "pattern": "minecraft:triangle_top",    "color": "black" },
+                  { "pattern": "minecraft:triangle_top",    "color": "purple" },
+                  { "pattern": "minecraft:circle",          "color": "magenta" },
+                  { "pattern": "minecraft:triangles_bottom","color": "black" },
+                  { "pattern": "minecraft:triangles_bottom","color": "magenta" },
+                  { "pattern": "minecraft:triangles_top",   "color": "black" },
+                  { "pattern": "minecraft:triangles_top",   "color": "magenta" },
+                  { "pattern": "minecraft:circle",          "color": "purple" },
+                  { "pattern": "minecraft:flower",          "color": "black" },
+                  { "pattern": "minecraft:flower",          "color": "yellow" }
+                ],
+                "minecraft:base_color": "pink",
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["minecraft:banner_patterns"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "parent": "pixelburen:fishing/root",
+  "display": {
+    "frame": "challenge",
+    "title": "On-vis-baar",
+    "description": {
+      "translate": "Sloop een %s met %s tijdens het vissen ... op de een of andere manier.",
+      "with": [
+        {
+          "translate": "item.minecraft.fishing_rod",
+          "color": "aqua"
+        },
+        {
+          "text": "Mending",
+          "color": "yellow"
+        }
+      ],
+      "color": "dark_purple"
+    },
+    "icon": {
+      "id": "minecraft:fishing_rod",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "delta": -1,
+        "durability": {
+          "max": 0
+        },
+        "item": {
+          "items": [
+            "minecraft:fishing_rod"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:mending"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

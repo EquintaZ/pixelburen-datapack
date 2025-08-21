@@ -1,0 +1,49 @@
+{
+  "parent": "pixelburen:fishing/root",
+  "display": {
+    "frame": "goal",
+    "title": "Wat zit er in?",
+    "description": {
+      "translate": "Vindt een %s en kijk zelf maar...",
+      "with": [
+        {
+          "text": "Fishing Crate",
+          "color": "#A000A0"
+        }
+      ],
+      "color": "yellow"
+    },
+    "icon": {
+      "id": "minecraft:barrel",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "open_crate": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "pixelburen:fishing/overworld_open_water/crate/main"
+      }
+    },
+    "open_crate_end": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "pixelburen:fishing/the_end/crate/main"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "open_crate",
+      "open_crate_end"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  }
+}

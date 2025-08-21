@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "pixelburen": { "event": "fishing_karma" } },
+                "minecraft:tooltip_display": { "hide_tooltip": true }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/event/experience_swarm",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 93
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": -3,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": { "pixelburen": { "event": "too_lucky" } },
+                "minecraft:tooltip_display": { "hide_tooltip": true }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

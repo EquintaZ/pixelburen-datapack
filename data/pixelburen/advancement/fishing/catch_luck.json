@@ -1,0 +1,44 @@
+{
+  "parent": "pixelburen:fishing/catch_experience_swarm",
+  "display": {
+    "frame": "goal",
+    "title": "Klavertje vier",
+    "description": {
+      "translate": "Ga vissen met te veel %s!",
+      "with": [
+        {
+          "text": "Geluk",
+          "color": "green"
+        }
+      ],
+      "color": "yellow"
+    },
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:luck"
+        }
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": { "pixelburen": { "event": "too_lucky" } }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25,
+    "function": "pixelburen:advancement/fishing/cleanup"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_sand"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:set_loot_table",
+      "type": "minecraft:brushable_block",
+      "name": "pixelburen:fishing/overworld_open_water/suspicious_block/items"
+    }
+  ]
+}

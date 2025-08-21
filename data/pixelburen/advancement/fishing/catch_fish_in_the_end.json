@@ -1,0 +1,44 @@
+{
+  "parent": "pixelburen:fishing/root",
+  "display": {
+    "frame": "goal",
+    "title": "Vissige finale",
+    "description": {
+      "translate": "Bewijs dat vis bestaat in %s.",
+      "with": [
+        {
+          "text": "the End",
+          "color": "light_purple"
+        }
+      ],
+      "color": "yellow"
+    },
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "tag": "pixelburen:fish"
+        },
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "minecraft:the_end"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}
