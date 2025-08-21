@@ -1,0 +1,33 @@
+{
+  "parent": "pixelburen:fishing/milk_skips_bad_luck",
+  "display": {
+    "frame": "task",
+    "title": "Spetterend veel experience",
+    "description": {
+      "text": "Dat is veel experience.",
+      "color": "green"
+    },
+    "icon": {
+      "id": "minecraft:experience_bottle"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": { "pixelburen": { "event": "experience_swarm" } }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "function": "pixelburen:advancement/fishing/cleanup"
+  }
+}

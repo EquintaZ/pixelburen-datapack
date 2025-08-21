@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/suspicious_block/item/common",
+          "weight": 1369,
+          "quality": -5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/suspicious_block/item/treasure",
+          "weight": 630,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/crate"
+        }
+      ]
+    }
+  ]
+}

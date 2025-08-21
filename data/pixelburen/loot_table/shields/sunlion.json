@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Old Shield",
+                "color": "yellow",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  { "pattern": "minecraft:half_horizontal_bottom", "color": "red" },
+                  { "pattern": "minecraft:half_horizontal",        "color": "light_blue" },
+                  { "pattern": "minecraft:cross",                  "color": "black" },
+                  { "pattern": "minecraft:stripe_middle",          "color": "black" },
+                  { "pattern": "minecraft:curly_border",           "color": "black" },
+                  { "pattern": "minecraft:circle",                 "color": "black" },
+                  { "pattern": "minecraft:flower",                 "color": "yellow" },
+                  { "pattern": "minecraft:piglin",                 "color": "yellow" }
+                ],
+                "minecraft:base_color": "black",
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["minecraft:banner_patterns"]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

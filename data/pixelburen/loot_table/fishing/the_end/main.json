@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/the_end/items",
+          "weight": 75,
+          "quality": -2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk",
+          "weight": 10,
+          "quality": -2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure",
+          "weight": 6,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/the_end/crate",
+          "weight": 2,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

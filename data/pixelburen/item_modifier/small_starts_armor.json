@@ -1,0 +1,12 @@
+[
+  {
+    "function": "minecraft:reference",
+    "name": "pixelburen:small_starts"
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:binding_curse": 0
+    }
+  }
+]

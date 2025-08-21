@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/horse_armor"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water_breathing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

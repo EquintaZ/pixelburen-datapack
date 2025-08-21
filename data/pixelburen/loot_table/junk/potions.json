@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:thick"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:mundane"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:water"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:bad_luck_potion"
+        }
+      ]
+    }
+  ]
+}

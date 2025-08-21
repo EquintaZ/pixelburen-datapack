@@ -1,0 +1,42 @@
+{
+  "parent": "pixelburen:fishing/root",
+  "display": {
+    "frame": "task",
+    "title": "Koppige vissen",
+    "description": {
+      "translate": "Vindt een vissenkop tijdens het vissen!",
+      "color": "green"
+    },
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:player_head"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  }
+}

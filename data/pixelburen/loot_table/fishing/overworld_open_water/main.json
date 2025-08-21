@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/fish",
+          "weight": 65,
+          "quality": -4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean",
+          "weight": 17,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk",
+          "weight": 10,
+          "quality": -2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure",
+          "weight": 6,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/crate",
+          "weight": 2,
+          "quality": 1
+        }
+      ]
+    }
+  ]
+}

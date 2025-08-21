@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/suspicious_block/item/treasure_enchanted",
+          "weight": 530
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/items",
+          "weight": 410
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/suspicious_block/item/potions",
+          "weight": 59
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/ancient_fishing_rod"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Potion of Bad Luck",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Splash Potion of Bad Luck",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:thick",
+              "custom_color": 12624973,
+              "custom_effects": [
+                { "id": "minecraft:unluck", "duration": 6000, "amplifier": 4 }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

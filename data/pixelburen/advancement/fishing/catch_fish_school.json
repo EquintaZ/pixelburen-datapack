@@ -1,0 +1,34 @@
+{
+  "parent": "pixelburen:fishing/catch_fish_head",
+  "display": {
+    "frame": "task",
+    "title": "School is uit!",
+    "description": {
+      "text": "Je hebt een hele school vissen gevangen!",
+      "color": "green"
+    },
+    "icon": {
+      "id": "minecraft:cooked_cod"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "the_task": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "tag": "pixelburen:fish",
+          "count": {
+            "min": 4,
+            "max": 8
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/sunlion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/plantation"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/redbone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/volcanic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/kaleidoscopic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/trophy"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/malicious"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:shields/superstar"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk/items",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk/tools",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:junk/potions"
+        }
+      ]
+    }
+  ]
+}

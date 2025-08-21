@@ -1,0 +1,12 @@
+[
+  {
+    "function": "minecraft:reference",
+    "name": "pixelburen:powerhouse"
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:mending": 0
+    }
+  }
+]

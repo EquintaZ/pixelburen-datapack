@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/items",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/plants",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/corals",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/heads"
+        }
+      ]
+    }
+  ]
+}

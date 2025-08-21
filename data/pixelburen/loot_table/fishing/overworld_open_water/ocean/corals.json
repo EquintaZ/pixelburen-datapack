@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/coral/coral",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/coral/coral_fan",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/coral/dead_coral"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/ocean/coral/dead_coral_fan"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 3,
+            "max": 6
+          }
+        }
+      ]
+    }
+  ]
+}

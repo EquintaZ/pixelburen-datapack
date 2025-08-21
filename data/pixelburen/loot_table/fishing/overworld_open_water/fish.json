@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/fish/drops",
+          "weight": 95,
+          "quality": -2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/overworld_open_water/fish/school",
+          "weight": 5,
+          "quality": 2
+        }
+      ]
+    }
+  ]
+}

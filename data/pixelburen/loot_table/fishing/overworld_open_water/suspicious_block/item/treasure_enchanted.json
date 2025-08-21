@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/iron"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/diamond"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/armor/chainmail"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/fishing_rod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/crossbow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/bow"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/stone"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure/tools/iron"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:enchanted_book"
+        }
+      ]
+    }
+  ]
+}

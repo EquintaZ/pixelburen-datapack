@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.7,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:powerhouse_nomend"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.3,
+                "max": 0.75
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:small_starts"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

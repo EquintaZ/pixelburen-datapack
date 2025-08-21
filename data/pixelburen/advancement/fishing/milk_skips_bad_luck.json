@@ -1,0 +1,43 @@
+{
+  "parent": "pixelburen:fishing/root",
+  "display": {
+    "frame": "task",
+    "title": "Pechvogel",
+    "description": {
+      "text": "Drink wat melk, dat doet je geluk goed.",
+      "color": "green"
+    },
+    "icon": {
+      "id": "minecraft:milk_bucket"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_task": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:milk_bucket"
+          ]
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:unluck": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15
+  }
+}

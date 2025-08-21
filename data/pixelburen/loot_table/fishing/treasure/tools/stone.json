@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:tools/stone",
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 0.95
+              }
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "pixelburen:stone_power"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

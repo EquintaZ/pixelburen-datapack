@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/cod"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/salmon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/pufferfish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/tropical_fish"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/drowned"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fish_heads/squid"
+        }
+      ]
+    }
+  ]
+}
