@@ -4,6 +4,7 @@
     "pixelburen:check_first_join",
     "pixelburen:tag_near_epic",
     "pixelburen:advancement/grant_death_progress",
-    "pixelburen:advancement/cj/grant_stone_mined_progress"
+    "pixelburen:advancement/cj/grant_stone_mined_progress",
+    "pixelburen:advancement/equintaz/grant_copper_placed_progress"
   ]
 }
