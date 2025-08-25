@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:meneerkb/root",
+  "parent": "pixelburen:meneerkb/fishing",
   "display": {
     "frame": "task",
     "title": "Fish boy",

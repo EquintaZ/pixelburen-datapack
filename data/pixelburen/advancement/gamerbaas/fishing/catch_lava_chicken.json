@@ -1,0 +1,32 @@
+{
+  "parent": "pixelburen:gamerbaas/fishing",
+  "display": {
+    "frame": "goal",
+    "title": "La-la-la-lava... Obsidian?",
+    "description": {
+      "translate": "Lava Chicken + Water = Obsidian Chicken?",
+      "color": "red"
+    },
+    "icon": {
+      "id": "minecraft:music_disc_lava_chicken"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_lava_chicken"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

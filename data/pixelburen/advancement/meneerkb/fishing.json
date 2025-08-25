@@ -1,0 +1,20 @@
+{
+  "parent": "pixelburen:meneerkb/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "Even rust",
+    "description": "Lekker rustgevend een hengeltje gooien.",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "sends_telemetry_event": true
+}
