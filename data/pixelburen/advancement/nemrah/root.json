@@ -8,14 +8,14 @@
           "properties": [
             {
               "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMxNGViZmQ0OTgzOTZhOWMyOWYwZDFmN2RlYzA3NDcyMmVlNWFjOWM4ODg0YmM2Y2VkMjc0NmQ2YmYxOTE2MiJ9fX0="
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2ZTg5OTQ3ODY0YmZiZTQzZDI3MGE3NzEwMmJjM2E2MjUwNDM5NzVlZmM4NjY4NGY4MGFjODJjNzUwNzdjZCJ9fX0="
             }
           ]
         }
       }
     },
-    "title": "Rollercoaster Tycoon",
-    "description": "Spanning en sensatie met GamerBaas.",
+    "title": "De echte dwerg",
+    "description": "Is het geen piraat of is het toch een elfje?",
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

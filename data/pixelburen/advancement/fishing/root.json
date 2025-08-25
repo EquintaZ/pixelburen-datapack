@@ -1,19 +1,19 @@
 {
+  "parent": "pixelburen:equintaz/root",
   "display": {
     "icon": {
       "id": "minecraft:fishing_rod"
     },
-    "title": "Lekker vissen",
+    "title": "Even rust",
     "description": "Lekker rustgevend een hengeltje gooien.",
     "frame": "task",
     "show_toast": false,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "pixelburen:root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick"
+      "trigger": "minecraft:fishing_rod_hooked"
     }
   },
   "sends_telemetry_event": true

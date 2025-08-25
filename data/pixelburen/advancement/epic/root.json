@@ -1,4 +1,5 @@
 {
+  "parent": "pixelburen:root",
   "display": {
     "icon": {
       "id": "minecraft:player_head",
@@ -20,7 +21,6 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "pixelburen:root",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick"

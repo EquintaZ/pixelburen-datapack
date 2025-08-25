@@ -1,11 +1,11 @@
 {
-  "parent": "pixelburen:root",
+  "parent": "pixelburen:nemrah/root",
   "display": {
     "icon": {
       "id": "minecraft:wither_rose"
     },
     "title": "Over m'n lijk",
-    "description": "Niemand heeft het eeuwige leven. Maar je kunt ook overdrijven...",
+    "description": "Niemand heeft het eeuwige leven, maar je kunt ook overdrijven...",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true
