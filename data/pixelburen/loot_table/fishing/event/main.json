@@ -33,13 +33,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
+          "name": "minecraft:potion",
           "weight": -3,
           "quality": 1,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:potion_contents": { "potion": "minecraft:luck" },
                 "minecraft:custom_data": { "pixelburen": { "event": "too_lucky" } },
                 "minecraft:tooltip_display": { "hide_tooltip": true }
               }
