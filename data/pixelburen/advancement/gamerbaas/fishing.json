@@ -4,8 +4,8 @@
     "icon": {
       "id": "minecraft:fishing_rod"
     },
-    "title": "Even rust",
-    "description": "Lekker rustgevend een hengeltje gooien.",
+    "title": "Geen rust",
+    "description": "Snel een hengeltje gooien, want er moet wat gevangen worden!",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
