@@ -36,6 +36,17 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "pixelburen:potions",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:oozing"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "pixelburen:bad_luck_potion"
         }
       ]
