@@ -1,4 +1,4 @@
 
 package:
 	rm -f Pixelburen.zip
-	zip -r Pixelburen.zip data/* pack.mcmeta
+	zip -r Pixelburen.zip data/* pack.mcmeta pack.png
