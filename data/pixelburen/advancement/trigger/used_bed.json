@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "used_bed": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:beds"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_bed"
+    ]
+  ],
+  "rewards": {
+    "function": "pixelburen:advancement/sleep/attempt_sleep"
+  },
+  "sends_telemetry_event": false
+}

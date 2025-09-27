@@ -1,0 +1,27 @@
+{
+  "parent": "pixelburen:glaleria/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_bed"
+    },
+    "title": "Oh nee, veer gesprongen!",
+    "description": "Volgende keer niet meer zo vaak je bed meppen...",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blown_out": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "blown_out"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

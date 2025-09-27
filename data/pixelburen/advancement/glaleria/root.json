@@ -1,0 +1,30 @@
+{
+  "parent": "pixelburen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFlYjM1YTBlZjQ2MjdmYmI2YzY0OGJjMWE4MmEwZGRiMGM5Y2RlMDdmOGRiMWJkYTQ2ZDcxZGE1NmIxZTQzYSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Pink lady",
+    "description": "Op een roze wolk met Glaleria.",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

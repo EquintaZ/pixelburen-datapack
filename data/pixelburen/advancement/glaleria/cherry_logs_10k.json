@@ -1,0 +1,625 @@
+{
+  "parent": "pixelburen:glaleria/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:stripped_cherry_log"
+    },
+    "title": {
+      "text": "ROZE!"
+    },
+    "description": {
+      "text": "Hak 10.000 Cherry Logs om je basis te versieren."
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "step_001": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_002": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_003": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_004": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_005": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_006": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_007": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_008": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_009": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_010": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_011": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_012": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_013": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_014": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_015": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_016": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_017": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_018": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_019": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_020": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_021": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_022": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_023": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_024": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_025": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_026": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_027": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_028": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_029": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_030": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_031": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_032": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_033": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_034": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_035": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_036": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_037": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_038": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_039": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_040": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_041": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_042": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_043": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_044": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_045": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_046": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_047": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_048": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_049": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_050": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_051": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_052": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_053": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_054": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_055": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_056": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_057": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_058": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_059": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_060": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_061": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_062": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_063": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_064": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_065": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_066": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_067": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_068": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_069": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_070": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_071": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_072": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_073": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_074": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_075": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_076": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_077": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_078": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_079": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_080": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_081": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_082": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_083": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_084": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_085": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_086": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_087": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_088": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_089": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_090": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_091": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_092": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_093": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_094": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_095": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_096": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_097": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_098": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_099": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_100": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "step_001"
+    ],
+    [
+      "step_002"
+    ],
+    [
+      "step_003"
+    ],
+    [
+      "step_004"
+    ],
+    [
+      "step_005"
+    ],
+    [
+      "step_006"
+    ],
+    [
+      "step_007"
+    ],
+    [
+      "step_008"
+    ],
+    [
+      "step_009"
+    ],
+    [
+      "step_010"
+    ],
+    [
+      "step_011"
+    ],
+    [
+      "step_012"
+    ],
+    [
+      "step_013"
+    ],
+    [
+      "step_014"
+    ],
+    [
+      "step_015"
+    ],
+    [
+      "step_016"
+    ],
+    [
+      "step_017"
+    ],
+    [
+      "step_018"
+    ],
+    [
+      "step_019"
+    ],
+    [
+      "step_020"
+    ],
+    [
+      "step_021"
+    ],
+    [
+      "step_022"
+    ],
+    [
+      "step_023"
+    ],
+    [
+      "step_024"
+    ],
+    [
+      "step_025"
+    ],
+    [
+      "step_026"
+    ],
+    [
+      "step_027"
+    ],
+    [
+      "step_028"
+    ],
+    [
+      "step_029"
+    ],
+    [
+      "step_030"
+    ],
+    [
+      "step_031"
+    ],
+    [
+      "step_032"
+    ],
+    [
+      "step_033"
+    ],
+    [
+      "step_034"
+    ],
+    [
+      "step_035"
+    ],
+    [
+      "step_036"
+    ],
+    [
+      "step_037"
+    ],
+    [
+      "step_038"
+    ],
+    [
+      "step_039"
+    ],
+    [
+      "step_040"
+    ],
+    [
+      "step_041"
+    ],
+    [
+      "step_042"
+    ],
+    [
+      "step_043"
+    ],
+    [
+      "step_044"
+    ],
+    [
+      "step_045"
+    ],
+    [
+      "step_046"
+    ],
+    [
+      "step_047"
+    ],
+    [
+      "step_048"
+    ],
+    [
+      "step_049"
+    ],
+    [
+      "step_050"
+    ],
+    [
+      "step_051"
+    ],
+    [
+      "step_052"
+    ],
+    [
+      "step_053"
+    ],
+    [
+      "step_054"
+    ],
+    [
+      "step_055"
+    ],
+    [
+      "step_056"
+    ],
+    [
+      "step_057"
+    ],
+    [
+      "step_058"
+    ],
+    [
+      "step_059"
+    ],
+    [
+      "step_060"
+    ],
+    [
+      "step_061"
+    ],
+    [
+      "step_062"
+    ],
+    [
+      "step_063"
+    ],
+    [
+      "step_064"
+    ],
+    [
+      "step_065"
+    ],
+    [
+      "step_066"
+    ],
+    [
+      "step_067"
+    ],
+    [
+      "step_068"
+    ],
+    [
+      "step_069"
+    ],
+    [
+      "step_070"
+    ],
+    [
+      "step_071"
+    ],
+    [
+      "step_072"
+    ],
+    [
+      "step_073"
+    ],
+    [
+      "step_074"
+    ],
+    [
+      "step_075"
+    ],
+    [
+      "step_076"
+    ],
+    [
+      "step_077"
+    ],
+    [
+      "step_078"
+    ],
+    [
+      "step_079"
+    ],
+    [
+      "step_080"
+    ],
+    [
+      "step_081"
+    ],
+    [
+      "step_082"
+    ],
+    [
+      "step_083"
+    ],
+    [
+      "step_084"
+    ],
+    [
+      "step_085"
+    ],
+    [
+      "step_086"
+    ],
+    [
+      "step_087"
+    ],
+    [
+      "step_088"
+    ],
+    [
+      "step_089"
+    ],
+    [
+      "step_090"
+    ],
+    [
+      "step_091"
+    ],
+    [
+      "step_092"
+    ],
+    [
+      "step_093"
+    ],
+    [
+      "step_094"
+    ],
+    [
+      "step_095"
+    ],
+    [
+      "step_096"
+    ],
+    [
+      "step_097"
+    ],
+    [
+      "step_098"
+    ],
+    [
+      "step_099"
+    ],
+    [
+      "step_100"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}
