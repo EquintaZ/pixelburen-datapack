@@ -12,14 +12,21 @@
     "hidden": false
   },
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_interacted_with_entity",
+    "riding_minecart": {
+      "trigger": "minecraft:tick",
       "conditions": {
-        "item": {
-          "type": "minecraft:minecart"
+        "player": {
+          "vehicle": {
+            "type": "minecraft:minecart"
+          }
         }
       }
     }
   },
+  "requirement": [
+    [
+      "riding_minecart"
+    ]
+  ],
   "sends_telemetry_event": true
 }
