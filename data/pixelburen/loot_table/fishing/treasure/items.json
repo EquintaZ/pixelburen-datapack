@@ -6,7 +6,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
-          "weight": 3,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -20,12 +20,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 2,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -38,11 +38,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "pixelburen:fishing/treasure/horse_armor"
+          "value": "pixelburen:fishing/treasure/horse_armor",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_lava_chicken"
+          "name": "minecraft:music_disc_lava_chicken",
+          "weight": 1
         }
       ]
     }
