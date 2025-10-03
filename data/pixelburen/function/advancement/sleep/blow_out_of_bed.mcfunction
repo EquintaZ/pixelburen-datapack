@@ -1,5 +1,8 @@
 # Summon wind charge right above player
-summon minecraft:wind_charge ~ ~1 ~ {Motion:[0.0,-0.5,0.2]}
+execute if predicate pixelburen:chance/025_percent run summon minecraft:wind_charge ~ ~1 ~ {Motion:[0.0,-0.5,0.2]}
+execute if predicate pixelburen:chance/025_percent run summon minecraft:wind_charge ~ ~1 ~ {Motion:[0.0,-0.5,0.2]}
+execute if predicate pixelburen:chance/025_percent run summon minecraft:wind_charge ~ ~1 ~ {Motion:[0.0,-0.5,0.2]}
+execute if predicate pixelburen:chance/025_percent run summon minecraft:wind_charge ~ ~1 ~ {Motion:[0.0,-0.5,0.2]}
 
 # Always notify the player of the event
 tellraw @s {"text":"Een gesprongen veer heeft je uit bed gelanceerd! Kijk je uit?","color":"gray"}
