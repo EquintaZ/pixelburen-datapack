@@ -15,11 +15,11 @@
     "hidden": false
   },
   "criteria": {
-    "the_task": {
+    "requirement": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "item": {
-          "tag": "pixelburen:fish",
+          "items": "#pixelburen:fish",
           "count": {
             "min": 4,
             "max": 8
