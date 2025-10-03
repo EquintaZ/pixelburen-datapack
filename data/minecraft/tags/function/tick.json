@@ -7,6 +7,7 @@
     "pixelburen:advancement/cj/grant_stone_mined_progress",
     "pixelburen:advancement/equintaz/grant_copper_placed_progress",
     "pixelburen:advancement/glaleria/grant_cherry_logs_mined_progress",
+    "pixelburen:advancement/fishing/event",
     "pixelburen:invisible_frame/particle_effect"
   ]
 }

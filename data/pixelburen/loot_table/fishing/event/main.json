@@ -5,12 +5,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "weight": 2,
+          "name": "minecraft:potion",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:potion_contents": { "potion": "minecraft:weakness" },
                 "minecraft:custom_data": { "pixelburen": { "event": "fishing_karma" } },
                 "minecraft:tooltip_display": { "hide_tooltip": true }
               }
@@ -20,7 +21,7 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:fishing/event/experience_swarm",
-          "weight": 5
+          "weight": 3
         },
         {
           "type": "minecraft:empty",

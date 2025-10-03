@@ -27,7 +27,6 @@
     }
   },
   "rewards": {
-    "experience": 10,
-    "function": "pixelburen:advancement/fishing/cleanup"
+    "experience": 10
   }
 }

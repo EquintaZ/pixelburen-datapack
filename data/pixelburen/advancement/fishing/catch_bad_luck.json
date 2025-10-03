@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": { "pixelburen": { "event": "fishing_karma" } }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pixelburen:advancement/fishing/give_bad_luck"
+  },
+  "sends_telemetry_event": false
+}
