@@ -31,7 +31,9 @@
     "requirement": {
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
-        "delta": -1,
+        "delta": {
+          "max": -1
+        },
         "durability": {
           "max": 0
         },
@@ -39,11 +41,17 @@
           "items": [
             "minecraft:fishing_rod"
           ],
-          "enchantments": [
-            {
-              "enchantment": "minecraft:mending"
-            }
-          ]
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "minecraft:mending": {
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              }
+            ]
+          }
         }
       }
     }
