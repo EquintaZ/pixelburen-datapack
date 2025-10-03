@@ -25,16 +25,13 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "item": {
-          "tag": "pixelburen:fish"
+          "items": "#pixelburen:fish"
         },
-        "player": [
-          {
-            "condition": "minecraft:location_check",
-            "predicate": {
-              "dimension": "minecraft:the_end"
-            }
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
           }
-        ]
+        }
       }
     }
   },
