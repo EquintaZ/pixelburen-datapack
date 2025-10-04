@@ -1,0 +1,155 @@
+{
+  "parent": "pixelburen:max/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": "Groepsvangst",
+    "description": {
+      "text": "Hengel elke Pixelbuur minstens één keer.",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "equintaz": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-1249636273,638536846,-1924361145,-709841452]}"
+        }
+      }
+    },
+    "meneerkb": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;153148436,-1044623856,-1905236605,-1711796977]}"
+        }
+      }
+    },
+    "harlohaker": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;338295367,1493454127,-2067010477,-330629870]}"
+        }
+      }
+    },
+    "maxlucaspro": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-1366182930,-694335784,-1629983317,-1265051488]}"
+        }
+      }
+    },
+    "lillytje2000": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-22969092,1483951655,-1582203214,1188129949]}"
+        }
+      }
+    },
+    "epichaddock310": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;179831117,803292245,-1939161852,-1662044131]}"
+        }
+      }
+    },
+    "kiesje": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;1236203068,-508606328,-1272107958,746751550]}"
+        }
+      }
+    },
+    "rexxnar": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-292865177,1887192120,-1493291459,-1338913056]}"
+        }
+      }
+    },
+    "gamerbaas321": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;2028276215,-1908455881,-1913068126,-1968495134]}"
+        }
+      }
+    },
+    "nemrah_gelre": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;2081079317,-815380556,-1424251220,334864647]}"
+        }
+      }
+    },
+    "karatebever": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;1824377616,182603663,-1113616994,825046897]}"
+        }
+      }
+    },
+    "clifford_james": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;335736959,197936064,-2095089772,-291158856]}"
+        }
+      }
+    },
+    "aliceblackrose": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;584181341,-1560524416,-1793461549,-82195432]}"
+        }
+      }
+    },
+    "glaleria": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;908081867,-1056947400,-1293989787,-1502434087]}"
+        }
+      }
+    },
+    "cpt_red_herring": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I;-2138139895,-1414314037,-1860040542,916126173]}"
+        }
+      }
+    }
+  },
+  "sends_telemetry_event": true
+}
