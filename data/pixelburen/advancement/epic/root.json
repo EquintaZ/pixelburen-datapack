@@ -15,7 +15,10 @@
       }
     },
     "title": "Avonturen met Epic",
-    "description": "Ga op avontuur met Epic van Epic's avonturen.",
+    "description": {
+      "text": "Ga op avontuur met Epic van Epic's avonturen.",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

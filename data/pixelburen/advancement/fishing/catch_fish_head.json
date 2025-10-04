@@ -5,7 +5,7 @@
     "title": "Koppige vissen",
     "description": {
       "translate": "Vindt een vissenkop tijdens het vissen!",
-      "color": "green"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:player_head",
@@ -20,7 +20,7 @@
         }
       }
     },
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": true
   },

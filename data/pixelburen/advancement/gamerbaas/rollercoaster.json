@@ -5,7 +5,10 @@
       "id": "minecraft:minecart"
     },
     "title": "Adrenaline",
-    "description": "In een achtbaan van GamerBaas gestapt?",
+    "description": {
+      "text": "In een achtbaan van GamerBaas gestapt?",
+      "color": "gray"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
@@ -23,10 +26,8 @@
       }
     }
   },
-  "requirement": [
-    [
-      "riding_minecart"
-    ]
-  ],
+  "rewards": {
+    "experience": 10
+  },
   "sends_telemetry_event": true
 }

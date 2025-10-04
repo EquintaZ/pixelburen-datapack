@@ -5,7 +5,10 @@
       "id": "minecraft:weathered_copper"
     },
     "title": "Koper ❤",
-    "description": "Gebruik 1.000 koper blokken in je bouwwerken.",
+    "description": {
+      "text": "Gebruik 1.000 koper blokken in je bouwwerken.",
+      "color": "gray"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,

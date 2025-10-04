@@ -5,9 +5,12 @@
       "id": "minecraft:pink_bed"
     },
     "title": "Oh nee, veer gesprongen!",
-    "description": "Volgende keer niet meer zo vaak je bed meppen...",
+    "description": {
+      "text": "Volgende keer niet meer zo vaak je bed meppen...",
+      "color": "gray"
+    },
     "frame": "task",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },

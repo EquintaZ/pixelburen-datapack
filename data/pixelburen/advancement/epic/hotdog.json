@@ -18,7 +18,8 @@
       "text": "Wilde hotdog"
     },
     "description": {
-      "text": "Samen met Epic opgegeten?"
+      "text": "Samen met Epic opgegeten?",
+      "color": "gray"
     },
     "frame": "task",
     "show_toast": false,

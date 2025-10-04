@@ -5,7 +5,7 @@
     "title": "Fish boy",
     "description": {
       "translate": "Wordt de boy die je altijd wilde zijn!",
-      "color": "green"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:player_head",

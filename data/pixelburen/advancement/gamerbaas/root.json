@@ -15,7 +15,10 @@
       }
     },
     "title": "Rollercoaster Tycoon",
-    "description": "Spanning en sensatie met GamerBaas.",
+    "description": {
+      "text": "Spanning en sensatie met GamerBaas.",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

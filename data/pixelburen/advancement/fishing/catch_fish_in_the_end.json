@@ -16,7 +16,7 @@
     "icon": {
       "id": "minecraft:end_stone"
     },
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },

@@ -8,7 +8,8 @@
       "text": "ROZE!"
     },
     "description": {
-      "text": "Hak 10.000 Cherry Logs om je basis te versieren."
+      "text": "Hak 10.000 Cherry Logs om je basis te versieren.",
+      "color": "gray"
     },
     "frame": "task",
     "show_toast": false,

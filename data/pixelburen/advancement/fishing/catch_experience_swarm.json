@@ -5,12 +5,12 @@
     "title": "Spetterend veel experience",
     "description": {
       "text": "Dat is écht veel experience.",
-      "color": "green"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:experience_bottle"
     },
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": true
   },

@@ -15,7 +15,10 @@
       }
     },
     "title": "Pink lady",
-    "description": "Op een roze wolk met Glaleria.",
+    "description": {
+      "text": "Op een roze wolk met Glaleria.",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

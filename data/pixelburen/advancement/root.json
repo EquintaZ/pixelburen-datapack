@@ -14,7 +14,10 @@
       }
     },
     "title": "Pixelburen",
-    "description": "Op avontuur met de Pixelburen.",
+    "description": {
+      "text": "Op avontuur met de Pixelburen.",
+      "color": "gray"
+    },
     "background": "minecraft:block/gray_concrete_powder",
     "frame": "task",
     "show_toast": false,

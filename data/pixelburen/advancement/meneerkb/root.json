@@ -15,7 +15,10 @@
       }
     },
     "title": "Kekke Baard",
-    "description": "",
+    "description": {
+      "text": "",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

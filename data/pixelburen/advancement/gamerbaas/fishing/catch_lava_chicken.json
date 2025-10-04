@@ -1,16 +1,16 @@
 {
   "parent": "pixelburen:gamerbaas/fishing",
   "display": {
+    "icon": {
+      "id": "minecraft:music_disc_lava_chicken"
+    },
     "frame": "goal",
     "title": "La-la-la-lava... Obsidian?",
     "description": {
       "translate": "Lava Chicken + Water = Obsidian Chicken?",
       "color": "red"
     },
-    "icon": {
-      "id": "minecraft:music_disc_lava_chicken"
-    },
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },

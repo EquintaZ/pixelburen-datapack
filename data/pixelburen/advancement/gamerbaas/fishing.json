@@ -5,7 +5,10 @@
       "id": "minecraft:fishing_rod"
     },
     "title": "Geen rust",
-    "description": "Snel een hengeltje gooien, want er moet wat gevangen worden!",
+    "description": {
+      "text": "Snel een hengeltje gooien, want er moet wat gevangen worden!",
+      "color": "gray"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

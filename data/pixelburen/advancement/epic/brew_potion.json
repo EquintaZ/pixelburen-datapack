@@ -8,7 +8,8 @@
       "text": "Lekker vies drankje"
     },
     "description": {
-      "text": "Samen met Epic een vies drankje brouwen!"
+      "text": "Samen met Epic een vies drankje brouwen!",
+      "color": "gray"
     },
     "frame": "task",
     "show_toast": true,

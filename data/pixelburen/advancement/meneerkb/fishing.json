@@ -5,7 +5,10 @@
       "id": "minecraft:fishing_rod"
     },
     "title": "Even rust",
-    "description": "Lekker rustgevend een hengeltje gooien.",
+    "description": {
+      "text": "Lekker rustgevend een hengeltje gooien.",
+      "color": "gray"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

@@ -3,7 +3,10 @@
   "display": {
     "frame": "task",
     "title": "Vies drankje opgevist",
-    "description": "Misschien iets voor Epic?",
+    "description": {
+      "text": "Misschien iets voor Epic?",
+      "color": "gray"
+    },
     "icon": {
       "id": "minecraft:potion",
       "components": {

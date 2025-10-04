@@ -15,7 +15,10 @@
       }
     },
     "title": "Géén piraat!",
-    "description": "Een quest om te bewijzen dat je geen piraat bent.",
+    "description": {
+      "text": "Een quest om te bewijzen dat je geen piraat bent.",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

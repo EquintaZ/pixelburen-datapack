@@ -15,7 +15,10 @@
       }
     },
     "title": "Grinden met CJ",
-    "description": "Lekker blokkies verzamelen zoals CJ dat altijd doet.",
+    "description": {
+      "text": "Lekker blokkies verzamelen zoals CJ dat altijd doet.",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

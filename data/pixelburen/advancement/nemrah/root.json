@@ -15,7 +15,10 @@
       }
     },
     "title": "De echte dwerg",
-    "description": "Is het geen piraat of is het toch een elfje?",
+    "description": {
+      "text": "Is het geen piraat of is het toch een elfje?",
+      "color": "gray"
+    },
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,

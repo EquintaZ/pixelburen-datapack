@@ -5,7 +5,10 @@
       "id": "minecraft:filled_map"
     },
     "title": "Staat niet op de kaart",
-    "description": "Samen met Epic een kaart maken.",
+    "description": {
+      "text": "Samen met Epic een kaart maken.",
+      "color": "gray"
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,

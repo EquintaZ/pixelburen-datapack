@@ -5,12 +5,12 @@
     "title": "Pechvogel",
     "description": {
       "text": "Drink wat melk, dat doet je geluk goed.",
-      "color": "green"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:milk_bucket"
     },
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
