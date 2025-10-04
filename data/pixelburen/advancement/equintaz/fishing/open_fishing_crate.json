@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:fishing/root",
+  "parent": "pixelburen:equintaz/fishing/root",
   "display": {
     "frame": "goal",
     "title": "Wat zit er in?",
@@ -11,7 +11,7 @@
           "color": "#A000A0"
         }
       ],
-      "color": "yellow"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:barrel",

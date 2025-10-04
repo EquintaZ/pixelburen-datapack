@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:fishing/root",
+  "parent": "pixelburen:equintaz/fishing/root",
   "display": {
     "frame": "task",
     "title": "Pechvogel",

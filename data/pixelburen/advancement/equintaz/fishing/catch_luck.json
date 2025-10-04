@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:fishing/catch_experience_swarm",
+  "parent": "pixelburen:equintaz/fishing/catch_experience_swarm",
   "display": {
     "frame": "goal",
     "title": "Klavertje vier",
@@ -11,7 +11,7 @@
           "color": "green"
         }
       ],
-      "color": "yellow"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:potion",

@@ -1,28 +1,26 @@
 {
-  "parent": "pixelburen:fishing/catch_fish_head",
+  "parent": "pixelburen:equintaz/fishing/milk_skips_bad_luck",
   "display": {
     "frame": "task",
-    "title": "School is uit!",
+    "title": "Spetterend veel experience",
     "description": {
-      "text": "Je hebt een hele school vissen gevangen!",
-      "color": "green"
+      "text": "Dat is écht veel experience.",
+      "color": "gray"
     },
     "icon": {
-      "id": "minecraft:cooked_cod"
+      "id": "minecraft:experience_bottle"
     },
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "requirement": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "item": {
-          "items": "#pixelburen:fish",
-          "count": {
-            "min": 4,
-            "max": 8
+          "components": {
+            "minecraft:custom_data": { "pixelburen": { "event": "experience_swarm" } }
           }
         }
       }

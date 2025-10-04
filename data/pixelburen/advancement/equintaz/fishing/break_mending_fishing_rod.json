@@ -1,7 +1,13 @@
 {
-  "parent": "pixelburen:fishing/root",
+  "parent": "pixelburen:equintaz/fishing/root",
   "display": {
     "frame": "challenge",
+    "icon": {
+      "id": "minecraft:fishing_rod",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
     "title": "On-vis-baar",
     "description": {
       "translate": "Sloop een %s met %s tijdens het vissen ... op de een of andere manier.",
@@ -15,13 +21,7 @@
           "color": "yellow"
         }
       ],
-      "color": "dark_purple"
-    },
-    "icon": {
-      "id": "minecraft:fishing_rod",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
+      "color": "gray"
     },
     "show_toast": true,
     "announce_to_chat": true,

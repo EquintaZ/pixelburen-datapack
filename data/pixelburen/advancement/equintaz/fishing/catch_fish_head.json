@@ -1,12 +1,7 @@
 {
-  "parent": "pixelburen:fishing/root",
+  "parent": "pixelburen:equintaz/fishing/root",
   "display": {
     "frame": "task",
-    "title": "Koppige vissen",
-    "description": {
-      "translate": "Vindt een vissenkop tijdens het vissen!",
-      "color": "gray"
-    },
     "icon": {
       "id": "minecraft:player_head",
       "components": {
@@ -19,6 +14,11 @@
           ]
         }
       }
+    },
+    "title": "Koppige vissen",
+    "description": {
+      "text": "Vindt een vissenkop tijdens het vissen!",
+      "color": "gray"
     },
     "show_toast": false,
     "announce_to_chat": true,

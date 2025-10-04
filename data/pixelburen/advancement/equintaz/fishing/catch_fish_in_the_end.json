@@ -1,5 +1,5 @@
 {
-  "parent": "pixelburen:fishing/root",
+  "parent": "pixelburen:equintaz/fishing/root",
   "display": {
     "frame": "goal",
     "title": "Vissige finale",
@@ -11,7 +11,7 @@
           "color": "light_purple"
         }
       ],
-      "color": "yellow"
+      "color": "gray"
     },
     "icon": {
       "id": "minecraft:end_stone"
