@@ -1,0 +1,69 @@
+{
+  "parent": "pixelburen:cpt_red_herring/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:parrot_spawn_egg"
+    },
+    "title": {
+      "text": "Vogelen met vrienden"
+    },
+    "description": {
+      "text": "Word bevriend met elke kleur papegaai.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "parrot_red": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:0}"
+        }
+      }
+    },
+    "parrot_blue": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:1}"
+        }
+      }
+    },
+    "parrot_green": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:2}"
+        }
+      }
+    },
+    "parrot_cyan": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:3}"
+        }
+      }
+    },
+    "parrot_gray": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:parrot",
+          "nbt": "{Variant:4}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
