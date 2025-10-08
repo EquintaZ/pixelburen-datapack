@@ -5,20 +5,35 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:suspicious_gravel"
+          "name": "minecraft:suspicious_gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:brushable_block",
+                  "LootTable": "pixelburen:fishing/overworld_open_water/suspicious_block/items"
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:suspicious_sand"
+          "name": "minecraft:suspicious_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:brushable_block",
+                  "LootTable": "pixelburen:fishing/overworld_open_water/suspicious_block/items"
+                }
+              }
+            }
+          ]
         }
       ]
-    }
-  ],
-  "functions": [
-    {
-      "function": "minecraft:set_loot_table",
-      "type": "minecraft:brushable_block",
-      "name": "pixelburen:fishing/overworld_open_water/suspicious_block/items"
     }
   ]
 }
