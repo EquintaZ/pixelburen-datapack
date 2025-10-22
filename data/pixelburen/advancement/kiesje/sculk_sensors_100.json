@@ -1,0 +1,253 @@
+{
+  "parent": "pixelburen:kiesje/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "text": "Gek onkruid"
+    },
+    "description": {
+      "translate": "Ruim 100 %s op.",
+      "with": [
+        {
+          "translate": "block.minecraft.sculk_sensor",
+          "color": "dark_blue"
+        }
+      ],
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "step_001": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 10
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_002": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 20
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_003": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 30
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_004": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 40
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_005": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 50
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_006": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 60
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_007": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 70
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_008": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 80
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_009": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 90
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step_010": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:sculk_sensor",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "step_001"
+    ],
+    [
+      "step_002"
+    ],
+    [
+      "step_003"
+    ],
+    [
+      "step_004"
+    ],
+    [
+      "step_005"
+    ],
+    [
+      "step_006"
+    ],
+    [
+      "step_007"
+    ],
+    [
+      "step_008"
+    ],
+    [
+      "step_009"
+    ],
+    [
+      "step_010"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  }
+}
+
