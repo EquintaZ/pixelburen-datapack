@@ -1,0 +1,3 @@
+function pixelburen:advancement/kiesje/grant_warden_kill_progress
+
+schedule function pixelburen:schedule/every_second 1s replace
