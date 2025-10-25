@@ -34,5 +34,7 @@ scoreboard objectives add pixelburen.glaleria.mined.cherry_log minecraft.mined:m
 # Kiesje
 scoreboard objectives add pixelburen.kiesje.killed.warden minecraft.killed:minecraft.warden
 
+function pixelburen:camel/init
+
 # Scheduling
 schedule function pixelburen:schedule/every_second 1s replace
