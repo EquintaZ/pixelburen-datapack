@@ -1,0 +1,32 @@
+{
+  "parent": "pixelburen:kiesje/collect_flowers",
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": {
+      "text": "...en bijtjes"
+    },
+    "description": {
+      "text": "Laat 2 bijtjes verliefd worden op elkaar.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "breed_bees": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:bee"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20
+  }
+}

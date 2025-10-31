@@ -1,0 +1,35 @@
+{
+  "parent": "pixelburen:meneerkb/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "title": {
+      "text": "Koele Bakker"
+    },
+    "description": {
+      "text": "Bak een heerlijke taart.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_cake": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:cake"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "craft_cake"
+    ]
+  ],
+  "rewards": {
+    "experience": 15
+  }
+}

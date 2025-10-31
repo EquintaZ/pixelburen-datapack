@@ -1,0 +1,62 @@
+{
+  "parent": "pixelburen:kiesje/sculk_sensors_100",
+  "display": {
+    "icon": {
+      "id": "minecraft:warden_spawn_egg"
+    },
+    "title": {
+      "text": "Wardenjager"
+    },
+    "description": {
+      "translate": "Versla de %s vijf keer.",
+      "with": [
+        {
+          "translate": "entity.minecraft.warden",
+          "color": "dark_blue"
+        }
+      ],
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "step_001": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_002": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_003": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_004": {
+      "trigger": "minecraft:impossible"
+    },
+    "step_005": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "step_001"
+    ],
+    [
+      "step_002"
+    ],
+    [
+      "step_003"
+    ],
+    [
+      "step_004"
+    ],
+    [
+      "step_005"
+    ]
+  ],
+  "rewards": {
+    "experience": 250
+  }
+}

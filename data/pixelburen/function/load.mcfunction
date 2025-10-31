@@ -30,3 +30,9 @@ scoreboard objectives add pixelburen.equintaz.used.copper.waxed_oxidized_cut_cop
 
 # Glaleria
 scoreboard objectives add pixelburen.glaleria.mined.cherry_log minecraft.mined:minecraft.cherry_log
+
+# Kiesje
+scoreboard objectives add pixelburen.kiesje.killed.warden minecraft.killed:minecraft.warden
+
+# Scheduling
+schedule function pixelburen:schedule/every_second 1s replace
