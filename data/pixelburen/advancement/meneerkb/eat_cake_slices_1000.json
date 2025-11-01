@@ -1,0 +1,1934 @@
+{
+  "parent": "pixelburen:meneerkb/craft_cake_1000",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IxNDIxNzgyMzUyYjkzNjg1YjU5ZjE0ZTUwNjk0OWJmN2EzM2VmZGQ4MWRkNjVlZDE3ZWE2ZGI0MjJmNTNmIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "text": "Taartliefhebber"
+    },
+    "description": {
+      "text": "Eet 1.000 plakjes taart.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "step01": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 10
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step02": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 20
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step03": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 30
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step04": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 40
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step05": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 50
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step06": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 60
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step07": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 70
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step08": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 80
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step09": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 90
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step11": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 110
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step12": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 120
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step13": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 130
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step14": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 140
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step15": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 150
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step16": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 160
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step17": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 170
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step18": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 180
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step19": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 190
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step20": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 200
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step21": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 210
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step22": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 220
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step23": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 230
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step24": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 240
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step25": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 250
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step26": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 260
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step27": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 270
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step28": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 280
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step29": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 290
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step30": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 300
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step31": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 310
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step32": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 320
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step33": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 330
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step34": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 340
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step35": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 350
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step36": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 360
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step37": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 370
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step38": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 380
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step39": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 390
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step40": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 400
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step41": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 410
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step42": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 420
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step43": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 430
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step44": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 440
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step45": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 450
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step46": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 460
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step47": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 470
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step48": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 480
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step49": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 490
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step50": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 500
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step51": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 510
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step52": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 520
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step53": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 530
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step54": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 540
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step55": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 550
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step56": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 560
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step57": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 570
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step58": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 580
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step59": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 590
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step60": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 600
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step61": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 610
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step62": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 620
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step63": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 630
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step64": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 640
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step65": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 650
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step66": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 660
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step67": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 670
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step68": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 680
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step69": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 690
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step70": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 700
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step71": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 710
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step72": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 720
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step73": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 730
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step74": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 740
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step75": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 750
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step76": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 760
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step77": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 770
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step78": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 780
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step79": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 790
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step80": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 800
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step81": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 810
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step82": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 820
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step83": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 830
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step84": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 840
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step85": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 850
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step86": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 860
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step87": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 870
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step88": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 880
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step89": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 890
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step90": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 900
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step91": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 910
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step92": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 920
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step93": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 930
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step94": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 940
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step95": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 950
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step96": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 960
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step97": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 970
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step98": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 980
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step99": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 990
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "step100": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "minecraft:player",
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:cake",
+                "value": {
+                  "min": 1000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}
