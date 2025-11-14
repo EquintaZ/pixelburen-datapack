@@ -1,10 +1,6 @@
 scoreboard objectives add pixelburen.joined dummy
 scoreboard objectives add pixelburen.deathCount deathCount
 
-# CJ
-scoreboard objectives add pixelburen.cj.mined.spruce minecraft.mined:minecraft.spruce_log
-scoreboard objectives add pixelburen.cj.mined.stone minecraft.mined:minecraft.stone
-
 # EquintaZ
 scoreboard objectives add pixelburen.equintaz.used.copper dummy
 
