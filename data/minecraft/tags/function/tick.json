@@ -3,7 +3,6 @@
   "values": [
     "pixelburen:check_first_join",
     "pixelburen:tag_near_epic",
-    "pixelburen:advancement/grant_death_progress",
     "pixelburen:advancement/equintaz/grant_copper_placed_progress",
     "pixelburen:advancement/fishing/event",
     "pixelburen:camel/tick",

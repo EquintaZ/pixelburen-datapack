@@ -34,3 +34,4 @@ function pixelburen:camel/init
 
 # Scheduling
 schedule function pixelburen:schedule/every_second 1s replace
+schedule function pixelburen:schedule/every_second_seconds 2s replace

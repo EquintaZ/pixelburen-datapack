@@ -1,0 +1,3 @@
+function pixelburen:advancement/nemrah/grant_death_progress
+
+schedule function pixelburen:schedule/every_second_seconds 2s replace
