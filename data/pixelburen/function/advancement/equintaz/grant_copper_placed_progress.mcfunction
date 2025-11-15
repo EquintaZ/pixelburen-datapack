@@ -1,25 +1,4 @@
-# Sum all copper placements into pixelburen.equintaz.used.copper each tick
-scoreboard players set @a pixelburen.equintaz.used.copper 0
-
-# Base blocks
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.copper_block
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.exposed_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.weathered_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.oxidized_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_copper_block
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_exposed_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_weathered_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_oxidized_copper
-
-# Cut (full)
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.exposed_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.weathered_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.oxidized_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_exposed_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_weathered_cut_copper
-scoreboard players operation @a pixelburen.equintaz.used.copper += @a pixelburen.equintaz.used.copper.waxed_oxidized_cut_copper
+execute as @a run function pixelburen:advancement/equintaz/calculate_copper_placed
 
 # Grant advancement progress based on copper used
 execute as @a[scores={pixelburen.equintaz.used.copper=100..}] run advancement grant @s only pixelburen:equintaz/copper_love step_001
