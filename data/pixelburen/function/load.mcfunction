@@ -24,12 +24,10 @@ scoreboard objectives add pixelburen.equintaz.used.copper.waxed_exposed_cut_copp
 scoreboard objectives add pixelburen.equintaz.used.copper.waxed_weathered_cut_copper minecraft.used:minecraft.waxed_weathered_cut_copper
 scoreboard objectives add pixelburen.equintaz.used.copper.waxed_oxidized_cut_copper minecraft.used:minecraft.waxed_oxidized_cut_copper
 
-# Glaleria
-scoreboard objectives add pixelburen.glaleria.mined.cherry_log minecraft.mined:minecraft.cherry_log
-
 # Kiesje
 scoreboard objectives add pixelburen.kiesje.killed.warden minecraft.killed:minecraft.warden
 
+function pixelburen:upgrade/upgrade
 function pixelburen:camel/init
 
 # Scheduling
