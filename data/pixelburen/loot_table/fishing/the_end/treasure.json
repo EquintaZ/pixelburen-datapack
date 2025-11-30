@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pixelburen:fishing/treasure",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:eye_of_ender",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_chest",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

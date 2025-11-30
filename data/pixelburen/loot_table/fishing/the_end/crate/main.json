@@ -23,7 +23,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "pixelburen:fishing/overworld_open_water/crate/minerals",
+          "value": "pixelburen:fishing/the_end/crate/minerals",
           "weight": 3
         }
       ]

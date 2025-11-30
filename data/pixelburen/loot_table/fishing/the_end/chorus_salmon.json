@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "text": "Chorus Salmon",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "A slightly fruity salmon infused with chorus magic.",
+                    "color": "gray",
+                    "italic": true
+                  }
+                ],
+                "minecraft:item_model": "pixelburen:chorus_salmon",
+                "minecraft:food": {
+                  "nutrition": 10,
+                  "saturation": 1,
+                  "can_always_eat": true
+                },
+                "minecraft:consumable": {
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:teleport_randomly",
+                      "diameter": 10,
+                      "probability": 1.0
+                    },
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:regeneration",
+                          "duration": 80,
+                          "amplifier": 0,
+                          "show_particles": false,
+                          "show_icon": true
+                        }
+                      ],
+                      "probability": 1.0
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "pixelburen:chorus_salmon": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
