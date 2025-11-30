@@ -1,0 +1,92 @@
+{
+  "description": {
+    "text": "Happy Haste"
+  },
+  "supported_items": "#minecraft:harnesses",
+  "weight": 1,
+  "max_level": 4,
+  "min_cost": {
+    "base": 4,
+    "per_level_above_first": 6
+  },
+  "max_cost": {
+    "base": 24,
+    "per_level_above_first": 6
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "body"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "minecraft:enchantment.happy_haste_base",
+        "attribute": "minecraft:flying_speed",
+        "operation": "add_multiplied_base",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.25,
+          "per_level_above_first": 0.30
+        }
+      }
+    ],
+    "minecraft:location_changed": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "position": {
+                "y": {
+                  "min": 187
+                }
+              },
+              "can_see_sky": true
+            }
+          }
+        },
+        "effect": {
+          "id": "minecraft:enchantment.happy_haste_aerial",
+          "type": "minecraft:attribute",
+          "attribute": "minecraft:flying_speed",
+          "operation": "add_multiplied_base",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.85,
+            "per_level_above_first": 0.35
+          }
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "periodic_tick": 5
+          }
+        },
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:cloud"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {
+            "movement_scale": -0.4
+          },
+          "vertical_velocity": {
+            "base": 0.1
+          }
+        }
+      }
+    ]
+  }
+}
