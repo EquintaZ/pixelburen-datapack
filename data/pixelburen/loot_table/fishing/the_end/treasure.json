@@ -10,7 +10,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:eye_of_ender",
+          "name": "minecraft:ender_eye",
           "functions": [
             {
               "function": "minecraft:set_count",
