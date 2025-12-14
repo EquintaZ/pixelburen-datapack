@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#G#",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:breeze_rod",
+    "B": "minecraft:enchanted_book",
+    "G": "minecraft:dried_ghast"
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "pixelburen:happy_haste": 1
+      }
+    },
+    "count": 1
+  },
+  "show_notification": false
+}
