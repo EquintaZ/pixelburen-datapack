@@ -1,8 +1,9 @@
 {
   "description": {
-    "text": "Stamina"
+    "text": "Levenslust"
   },
-  "supported_items": "#minecraft:harnesses",
+  "supported_items": "#pixelburen:vitality_supported",
+  "primary_items": "#pixelburen:vitality_supported",
   "weight": 5,
   "max_level": 4,
   "min_cost": {
@@ -15,7 +16,8 @@
   },
   "anvil_cost": 2,
   "slots": [
-    "body"
+    "body",
+    "armor"
   ],
   "effects": {
     "minecraft:attributes": [
@@ -26,7 +28,7 @@
         "amount": {
           "type": "minecraft:linear",
           "base": 2,
-          "per_level_above_first": 8
+          "per_level_above_first": 2
         }
       }
     ]
