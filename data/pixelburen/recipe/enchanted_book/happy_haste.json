@@ -2,19 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "###",
+    "#G#",
     "#B#",
     "###"
   ],
   "key": {
-    "#": "minecraft:golden_apple",
-    "B": "minecraft:enchanted_book"
+    "#": "minecraft:breeze_rod",
+    "B": "minecraft:enchanted_book",
+    "G": "minecraft:dried_ghast"
   },
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
       "minecraft:stored_enchantments": {
-        "pixelburen:vitality": 1
+        "pixelburen:happy_haste": 1
       }
     },
     "count": 1
