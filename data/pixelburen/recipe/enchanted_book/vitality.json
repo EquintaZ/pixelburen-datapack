@@ -13,7 +13,7 @@
   "result": {
     "id": "minecraft:enchanted_book",
     "components": {
-      "minecraft:enchantments": {
+      "minecraft:stored_enchantments": {
         "pixelburen:vitality": 1
       }
     }
