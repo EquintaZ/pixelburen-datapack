@@ -29,6 +29,19 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "pixelburen:happy_haste": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:elytra",
           "weight": 1
         }
