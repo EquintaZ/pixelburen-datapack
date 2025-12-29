@@ -1,10 +1,10 @@
 {
-  "parent": "pixelburen:equintaz/fishing/root",
+  "parent": "pixelburen:equintaz/fishing/catch_fish_in_the_end",
   "display": {
-    "frame": "task",
-    "title": "Vissige finale",
+    "frame": "goal",
+    "title": "Vliegvissen",
     "description": {
-      "translate": "Bewijs dat vis bestaat in %s.",
+      "translate": "Vang een Elytra in %s.",
       "with": [
         {
           "text": "the End",
@@ -14,7 +14,7 @@
       "color": "gray"
     },
     "icon": {
-      "id": "minecraft:end_stone"
+      "id": "minecraft:elytra"
     },
     "show_toast": false,
     "announce_to_chat": true,
@@ -25,7 +25,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "item": {
-          "items": "#pixelburen:fish"
+          "items": "minecraft:elytra"
         },
         "player": {
           "location": {
@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "experience": 25
+    "experience": 100
   }
 }

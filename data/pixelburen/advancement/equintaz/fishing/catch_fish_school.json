@@ -2,7 +2,7 @@
   "parent": "pixelburen:equintaz/fishing/catch_fish_head",
   "display": {
     "frame": "task",
-    "title": "School is uit!",
+    "title": "De school is uit!",
     "description": {
       "text": "Je hebt een hele school vissen gevangen!",
       "color": "gray"
