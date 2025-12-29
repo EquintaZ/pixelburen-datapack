@@ -12,18 +12,18 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:junk",
-          "weight": 9,
+          "weight": 10,
           "quality": -2
         },
         {
           "type": "minecraft:loot_table",
-          "value": "pixelburen:fishing/the_end/ender_fish",
-          "weight": 9,
-          "quality": 1
+          "value": "pixelburen:fishing/the_end/chorus_salmon",
+          "weight": 12,
+          "quality": -1
         },
         {
           "type": "minecraft:loot_table",
-          "value": "pixelburen:fishing/the_end/chorus_salmon",
+          "value": "pixelburen:fishing/the_end/ender_fish",
           "weight": 9,
           "quality": 1
         },

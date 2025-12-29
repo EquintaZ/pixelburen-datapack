@@ -13,7 +13,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "pixelburen:fishing/overworld_open_water/crate/food",
+          "value": "pixelburen:fishing/the_end/crate/food",
           "weight": 2
         },
         {
