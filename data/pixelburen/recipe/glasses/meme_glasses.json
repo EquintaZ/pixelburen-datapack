@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "GGG"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "G": "minecraft:black_stained_glass_pane"
+  },
+  "result": {
+    "id": "minecraft:carved_pumpkin",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Ultra coole zonnebril",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "+100 swag en Endermen zien niet dat je kijkt.",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "minecraft:item_model": "pixelburen:sunglasses/meme_sunglasses",
+      "minecraft:equippable": {
+        "slot": "head",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": true,
+        "equip_on_interact": false,
+        "can_be_sheared": false
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

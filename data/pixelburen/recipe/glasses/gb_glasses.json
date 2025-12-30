@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "# #",
+    "ORP"
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "O": "minecraft:orange_stained_glass_pane",
+    "R": "minecraft:red_stained_glass_pane",
+    "P": "minecraft:purple_stained_glass_pane"
+  },
+  "result": {
+    "id": "minecraft:carved_pumpkin",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "GB zonnebril",
+        "color": "light_purple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "+1000 swag en Endermen zien niet dat je kijkt.",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "minecraft:item_model": "pixelburen:sunglasses/gb_rainbow_sunglasses",
+      "minecraft:equippable": {
+        "slot": "head",
+        "dispensable": true,
+        "swappable": true,
+        "damage_on_hurt": true,
+        "equip_on_interact": false,
+        "can_be_sheared": false
+      }
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
