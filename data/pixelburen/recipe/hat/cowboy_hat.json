@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " # ",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Cowboyhoed"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Yeehaw!",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "minecraft:item_model": "pixelburen:hat/cowboy_hat",
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 1,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "pixelburen:attack_speed",
+          "amount": 1,
+          "operation": "add_value"
+        }
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
