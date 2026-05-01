@@ -1,0 +1,33 @@
+{
+  "parent": "pixelburen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGJiYzBkOWRjMTM2ZjU3MmRjNWY5NjRiNDM1MjExNTZlZTkzNTM0ZWQ1N2Q5MWNiMDVmNDU5YTliZDE2NjYwNiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Char",
+    "description": {
+      "text": "Je weet wel, van de korfbal.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}

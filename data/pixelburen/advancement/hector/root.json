@@ -1,0 +1,33 @@
+{
+  "parent": "pixelburen:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAxYzhkNjM1YTc5ODY0NzQxODlhOTU2N2IzNDJjZDUyMjYzMzMzYmE3Y2Y2N2MyMWI1NGU4NTM5NzRiYjNjZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": "Hector",
+    "description": {
+      "text": "Vrienden noemen me Swagtor.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "sends_telemetry_event": true
+}
