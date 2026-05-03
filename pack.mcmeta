@@ -10,7 +10,7 @@
       }
     ],
     "min_format": [61, 0],
-    "max_format": [94, 1],
+    "max_format": [101, 1],
     "pack_format": 77,
     "supported_formats": {
       "min_inclusive": 61,
