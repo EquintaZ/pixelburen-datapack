@@ -12,7 +12,8 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "show_progress": true
   },
   "criteria": {
     "step_001": {

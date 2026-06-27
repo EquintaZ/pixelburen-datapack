@@ -22,8 +22,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -41,8 +41,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -60,8 +60,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -79,8 +79,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -98,8 +98,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -117,8 +117,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -136,8 +136,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -155,8 +155,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -174,8 +174,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -193,8 +193,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -212,8 +212,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -231,8 +231,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -250,8 +250,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -269,8 +269,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -288,8 +288,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -307,8 +307,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -326,8 +326,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -345,8 +345,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -364,8 +364,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -383,8 +383,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -402,8 +402,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -421,8 +421,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -440,8 +440,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -459,8 +459,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -478,8 +478,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -497,8 +497,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -516,8 +516,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -535,8 +535,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -554,8 +554,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -573,8 +573,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -592,8 +592,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -611,8 +611,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -630,8 +630,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -649,8 +649,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -668,8 +668,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -687,8 +687,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -706,8 +706,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -725,8 +725,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -744,8 +744,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -763,8 +763,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -782,8 +782,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -801,8 +801,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -820,8 +820,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -839,8 +839,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -858,8 +858,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -877,8 +877,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -896,8 +896,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -915,8 +915,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -934,8 +934,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -953,8 +953,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -972,8 +972,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -991,8 +991,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1010,8 +1010,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1029,8 +1029,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1048,8 +1048,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1067,8 +1067,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1086,8 +1086,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1105,8 +1105,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1124,8 +1124,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1143,8 +1143,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1162,8 +1162,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1181,8 +1181,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1200,8 +1200,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1219,8 +1219,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1238,8 +1238,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1257,8 +1257,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1276,8 +1276,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1295,8 +1295,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1314,8 +1314,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1333,8 +1333,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1352,8 +1352,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1371,8 +1371,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1390,8 +1390,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1409,8 +1409,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1428,8 +1428,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1447,8 +1447,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1466,8 +1466,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1485,8 +1485,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1504,8 +1504,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1523,8 +1523,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1542,8 +1542,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1561,8 +1561,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1580,8 +1580,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1599,8 +1599,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1618,8 +1618,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1637,8 +1637,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1656,8 +1656,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1675,8 +1675,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1694,8 +1694,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1713,8 +1713,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1732,8 +1732,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1751,8 +1751,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1770,8 +1770,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1789,8 +1789,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1808,8 +1808,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1827,8 +1827,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1846,8 +1846,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1865,8 +1865,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1884,8 +1884,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",
@@ -1903,8 +1903,8 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type_specific": {
-            "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
+          "minecraft:type_specific/player": {
             "stats": [
               {
                 "type": "minecraft:crafted",

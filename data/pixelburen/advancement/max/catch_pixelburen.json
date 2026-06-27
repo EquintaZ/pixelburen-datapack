@@ -12,14 +12,15 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "show_progress": true
   },
   "criteria": {
     "aliceblackrose": {
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;584181341,-1560524416,-1793461549,-82195432]}"
         }
       }
@@ -28,7 +29,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;1467760663,1054623737,-1235089625,142352613]}"
         }
       }
@@ -37,7 +38,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;335736959,197936064,-2095089772,-291158856]}"
         }
       }
@@ -46,7 +47,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;-2138139895,-1414314037,-1860040542,916126173]}"
         }
       }
@@ -55,7 +56,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;179831117,803292245,-1939161852,-1662044131]}"
         }
       }
@@ -64,7 +65,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;-1249636273,638536846,-1924361145,-709841452]}"
         }
       }
@@ -73,7 +74,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;1665245668,1122058566,-1942131725,-1122185159]}"
         }
       }
@@ -82,7 +83,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;2028276215,-1908455881,-1913068126,-1968495134]}"
         }
       }
@@ -91,7 +92,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;908081867,-1056947400,-1293989787,-1502434087]}"
         }
       }
@@ -100,7 +101,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;338295367,1493454127,-2067010477,-330629870]}"
         }
       }
@@ -109,7 +110,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;1476618500,289816852,-1980202434,-260334806]}"
         }
       }
@@ -118,7 +119,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;1824377616,182603663,-1113616994,825046897]}"
         }
       }
@@ -127,7 +128,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;1236203068,-508606328,-1272107958,746751550]}"
         }
       }
@@ -136,7 +137,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;-22969092,1483951655,-1582203214,1188129949]}"
         }
       }
@@ -145,7 +146,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;-1366182930,-694335784,-1629983317,-1265051488]}"
         }
       }
@@ -154,7 +155,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;153148436,-1044623856,-1905236605,-1711796977]}"
         }
       }
@@ -163,7 +164,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;2081079317,-815380556,-1424251220,334864647]}"
         }
       }
@@ -172,7 +173,7 @@
       "trigger": "minecraft:fishing_rod_hooked",
       "conditions": {
         "entity": {
-          "type": "minecraft:player",
+          "minecraft:entity_type": "minecraft:player",
           "nbt": "{UUID:[I;-292865177,1887192120,-1493291459,-1338913056]}"
         }
       }

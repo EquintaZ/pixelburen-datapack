@@ -14,7 +14,8 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "show_progress": true
   },
   "criteria": {
     "explore_ocean": {
@@ -25,7 +26,7 @@
             "biomes": "minecraft:ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -38,7 +39,7 @@
             "biomes": "minecraft:deep_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -51,7 +52,7 @@
             "biomes": "minecraft:cold_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -64,7 +65,7 @@
             "biomes": "minecraft:deep_cold_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -77,7 +78,7 @@
             "biomes": "minecraft:lukewarm_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -90,7 +91,7 @@
             "biomes": "minecraft:deep_lukewarm_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -103,7 +104,7 @@
             "biomes": "minecraft:warm_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -116,7 +117,7 @@
             "biomes": "minecraft:frozen_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }
@@ -129,7 +130,7 @@
             "biomes": "minecraft:deep_frozen_ocean"
           },
           "vehicle": {
-            "type": "#pixelburen:boat"
+            "minecraft:entity_type": "#pixelburen:boat"
           }
         }
       }

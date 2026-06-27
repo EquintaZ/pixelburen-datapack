@@ -20,7 +20,7 @@
       "conditions": {
         "player": {
           "vehicle": {
-            "type": "minecraft:minecart"
+            "minecraft:entity_type": "minecraft:minecart"
           }
         }
       }

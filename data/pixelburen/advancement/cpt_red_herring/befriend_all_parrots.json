@@ -14,15 +14,18 @@
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": false,
+    "show_progress": true
   },
   "criteria": {
     "parrot_red": {
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-          "type": "minecraft:parrot",
-          "nbt": "{Variant:0}"
+          "minecraft:entity_type": "minecraft:parrot",
+          "components": {
+            "minecraft:parrot/variant": "red_blue"
+          }
         }
       }
     },
@@ -30,8 +33,10 @@
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-          "type": "minecraft:parrot",
-          "nbt": "{Variant:1}"
+          "minecraft:entity_type": "minecraft:parrot",
+          "components": {
+            "minecraft:parrot/variant": "blue"
+          }
         }
       }
     },
@@ -39,8 +44,10 @@
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-          "type": "minecraft:parrot",
-          "nbt": "{Variant:2}"
+          "minecraft:entity_type": "minecraft:parrot",
+          "components": {
+            "minecraft:parrot/variant": "green"
+          }
         }
       }
     },
@@ -48,8 +55,10 @@
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-          "type": "minecraft:parrot",
-          "nbt": "{Variant:3}"
+          "minecraft:entity_type": "minecraft:parrot",
+          "components": {
+            "minecraft:parrot/variant": "yellow_blue"
+          }
         }
       }
     },
@@ -57,8 +66,10 @@
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-          "type": "minecraft:parrot",
-          "nbt": "{Variant:4}"
+          "minecraft:entity_type": "minecraft:parrot",
+          "components": {
+            "minecraft:parrot/variant": "gray"
+          }
         }
       }
     }
