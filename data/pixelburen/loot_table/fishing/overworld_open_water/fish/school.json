@@ -22,10 +22,11 @@
       ]
     }
   ],
-  "functions": [
+  "modifier": [
     {
-      "function": "minecraft:set_count",
+      "type": "minecraft:set_count",
       "count": {
+        "type": "minecraft:uniform",
         "min": 4,
         "max": 8
       }

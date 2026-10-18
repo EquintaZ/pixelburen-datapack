@@ -7,10 +7,11 @@
           "type": "minecraft:item",
           "name": "minecraft:muddy_mangrove_roots",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -21,10 +22,11 @@
           "type": "minecraft:item",
           "name": "minecraft:mud",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 12
               }
@@ -35,22 +37,26 @@
           "type": "minecraft:item",
           "name": "minecraft:clay",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 10
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.35
                 }
               ]
+              }
             }
           ]
         },
@@ -58,22 +64,26 @@
           "type": "minecraft:item",
           "name": "minecraft:clay_ball",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 12,
                 "max": 32
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.35
                 }
               ]
+              }
             }
           ]
         },

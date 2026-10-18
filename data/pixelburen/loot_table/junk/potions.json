@@ -6,9 +6,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:thick"
             }
           ]
@@ -16,9 +16,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:mundane"
             }
           ]
@@ -27,9 +27,9 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
           "weight": 7,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water"
             }
           ]
@@ -38,9 +38,9 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:oozing"
             }
           ]

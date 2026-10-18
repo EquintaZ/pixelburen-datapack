@@ -7,10 +7,11 @@
           "type": "minecraft:item",
           "name": "minecraft:coal",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -21,10 +22,11 @@
           "type": "minecraft:item",
           "name": "minecraft:charcoal",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 6
               }
@@ -35,10 +37,11 @@
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 5,
                 "max": 10
               }
@@ -49,10 +52,11 @@
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -62,10 +66,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -75,10 +80,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -89,22 +95,26 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_iron",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.65
                 }
               ]
+              }
             }
           ]
         },
@@ -112,22 +122,26 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_copper",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 12
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.85
                 }
               ]
+              }
             }
           ]
         },
@@ -135,22 +149,26 @@
           "type": "minecraft:item",
           "name": "minecraft:raw_gold",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.65
                 }
               ]
+              }
             }
           ]
         }

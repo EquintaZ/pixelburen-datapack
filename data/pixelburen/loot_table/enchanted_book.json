@@ -6,11 +6,8 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:enchant_power"
-            }
+          "modifier": [
+            "pixelburen:enchant_power"
           ]
         }
       ]

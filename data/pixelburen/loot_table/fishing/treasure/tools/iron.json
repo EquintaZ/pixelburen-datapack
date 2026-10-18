@@ -6,36 +6,32 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:tools/iron",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.7,
                 "max": 0.95
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:powerhouse"
-            }
+            "pixelburen:powerhouse"
           ]
         },
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:tools/iron",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.4,
                 "max": 0.85
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:small_starts"
-            }
+            "pixelburen:small_starts"
           ]
         }
       ]

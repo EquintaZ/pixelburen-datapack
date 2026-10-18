@@ -7,35 +7,31 @@
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.6,
                 "max": 0.9
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:powerhouse_nomend"
-            }
+            "pixelburen:powerhouse_nomend"
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:crossbow",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.35,
                 "max": 0.8
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:small_starts"
-            }
+            "pixelburen:small_starts"
           ]
         }
       ]

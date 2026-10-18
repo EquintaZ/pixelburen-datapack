@@ -1,12 +1,12 @@
-[
-  {
-    "function": "minecraft:reference",
-    "name": "pixelburen:small_starts"
-  },
-  {
-    "function": "minecraft:set_enchantments",
-    "enchantments": {
-      "minecraft:binding_curse": 0
-    }
-  }
-]
+{
+    "type":  "minecraft:sequence",
+    "functions":  [
+                      "pixelburen:small_starts",
+                      {
+                          "type":  "minecraft:set_enchantments",
+                          "enchantments":  {
+                                               "minecraft:binding_curse":  0
+                                           }
+                      }
+                  ]
+}

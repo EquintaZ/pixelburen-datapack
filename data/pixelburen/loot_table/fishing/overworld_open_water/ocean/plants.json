@@ -6,10 +6,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:seagrass",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -19,10 +20,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:sea_pickle",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -32,10 +34,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:kelp",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 6
               }
@@ -45,10 +48,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:big_dripleaf",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -58,10 +62,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lily_pad",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }
@@ -71,10 +76,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mangrove_roots",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 3
               }

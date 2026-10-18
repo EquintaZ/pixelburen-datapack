@@ -12,10 +12,11 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:fishing/the_end/chorus_salmon",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -26,10 +27,11 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:fishing/the_end/ender_fish",
           "weight": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }

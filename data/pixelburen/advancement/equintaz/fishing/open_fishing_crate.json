@@ -27,13 +27,13 @@
     "open_crate": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "pixelburen:fishing/overworld_open_water/crate/main"
+        "loot_tables": "pixelburen:fishing/overworld_open_water/crate/main"
       }
     },
     "open_crate_end": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "pixelburen:fishing/the_end/crate/main"
+        "loot_tables": "pixelburen:fishing/the_end/crate/main"
       }
     }
   },
