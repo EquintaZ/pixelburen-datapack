@@ -33,7 +33,7 @@
     "minecraft:location_changed": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "location": {
@@ -62,7 +62,7 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
+            "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
             "periodic_tick": 5

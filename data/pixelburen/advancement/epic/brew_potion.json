@@ -1,30 +1,34 @@
 {
-  "parent": "pixelburen:epic/catch_potion",
-  "display": {
-    "icon": {
-      "id": "minecraft:brewing_stand"
-    },
-    "title": {
-      "text": "Lekker vies drankje"
-    },
-    "description": {
-      "text": "Samen met Epic een vies drankje brouwen!",
-      "color": "gray"
-    },
-    "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "potion": {
-      "trigger": "minecraft:brewed_potion",
-      "conditions": {
-        "player": {
-          "nbt": "{Tags:[\"pixelburen.near_epic\"]}"
-        }
-      }
-    }
-  },
-  "sends_telemetry_event": true
+    "parent":  "pixelburen:epic/catch_potion",
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:brewing_stand"
+                             },
+                    "title":  {
+                                  "text":  "Lekker vies drankje"
+                              },
+                    "description":  {
+                                        "text":  "Samen met Epic een vies drankje brouwen!",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  true,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "potion":  {
+                                    "trigger":  "minecraft:brewed_potion",
+                                    "conditions":  {
+                                                       "player":  {
+                                                                      "type":  "minecraft:entity_properties",
+                                                                      "entity":  "this",
+                                                                      "predicate":  {
+                                                                                        "nbt":  "{Tags:[\"pixelburen.near_epic\"]}"
+                                                                                    }
+                                                                  }
+                                                   }
+                                }
+                 },
+    "sends_telemetry_event":  true
 }

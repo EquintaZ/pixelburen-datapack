@@ -1,33 +1,37 @@
 {
-  "parent": "pixelburen:epic/spyglass_at_epic",
-  "display": {
-    "icon": {
-      "id": "minecraft:filled_map"
-    },
-    "title": "Staat niet op de kaart",
-    "description": {
-      "text": "Samen met Epic een kaart maken.",
-      "color": "gray"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:filled_map"
-          }
-        ],
-        "player": {
-          "nbt": "{Tags:[\"pixelburen.near_epic\"]}"
-        }
-      }
-    }
-  },
-  "sends_telemetry_event": true
+    "parent":  "pixelburen:epic/spyglass_at_epic",
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:filled_map"
+                             },
+                    "title":  "Staat niet op de kaart",
+                    "description":  {
+                                        "text":  "Samen met Epic een kaart maken.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "requirement":  {
+                                         "trigger":  "minecraft:inventory_changed",
+                                         "conditions":  {
+                                                            "items":  [
+                                                                          {
+                                                                              "items":  "minecraft:filled_map"
+                                                                          }
+                                                                      ],
+                                                            "player":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "nbt":  "{Tags:[\"pixelburen.near_epic\"]}"
+                                                                                         }
+                                                                       }
+                                                        }
+                                     }
+                 },
+    "sends_telemetry_event":  true
 }

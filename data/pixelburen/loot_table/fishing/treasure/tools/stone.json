@@ -6,18 +6,16 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:tools/stone",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.8,
                 "max": 0.95
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:stone_power"
-            }
+            "pixelburen:stone_power"
           ]
         }
       ]

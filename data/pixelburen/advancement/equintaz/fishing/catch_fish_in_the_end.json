@@ -1,41 +1,45 @@
 {
-  "parent": "pixelburen:equintaz/fishing/root",
-  "display": {
-    "frame": "task",
-    "title": "Vissige finale",
-    "description": {
-      "translate": "Bewijs dat vis bestaat in %s.",
-      "with": [
-        {
-          "text": "the End",
-          "color": "light_purple"
-        }
-      ],
-      "color": "gray"
-    },
-    "icon": {
-      "id": "minecraft:end_stone"
-    },
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": "#pixelburen:fish"
-        },
-        "player": {
-          "location": {
-            "dimension": "minecraft:the_end"
-          }
-        }
-      }
-    }
-  },
-  "rewards": {
-    "experience": 25
-  }
+    "parent":  "pixelburen:equintaz/fishing/root",
+    "display":  {
+                    "frame":  "task",
+                    "title":  "Vissige finale",
+                    "description":  {
+                                        "translate":  "Bewijs dat vis bestaat in %s.",
+                                        "with":  [
+                                                     {
+                                                         "text":  "the End",
+                                                         "color":  "light_purple"
+                                                     }
+                                                 ],
+                                        "color":  "gray"
+                                    },
+                    "icon":  {
+                                 "id":  "minecraft:end_stone"
+                             },
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "requirement":  {
+                                         "trigger":  "minecraft:fishing_rod_hooked",
+                                         "conditions":  {
+                                                            "item":  {
+                                                                         "items":  "#pixelburen:fish"
+                                                                     },
+                                                            "player":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "location":  {
+                                                                                                              "dimension":  "minecraft:the_end"
+                                                                                                          }
+                                                                                         }
+                                                                       }
+                                                        }
+                                     }
+                 },
+    "rewards":  {
+                    "experience":  25
+                }
 }
