@@ -1,80 +1,100 @@
 {
-  "parent": "pixelburen:cpt_red_herring/root",
-  "display": {
-    "icon": {
-      "id": "minecraft:parrot_spawn_egg"
-    },
-    "title": {
-      "text": "Vogelen met vrienden"
-    },
-    "description": {
-      "text": "Word bevriend met elke kleur papegaai.",
-      "color": "gray"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false,
-    "show_progress": true
-  },
-  "criteria": {
-    "parrot_red": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:parrot",
-          "components": {
-            "minecraft:parrot/variant": "red_blue"
-          }
-        }
-      }
-    },
-    "parrot_blue": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:parrot",
-          "components": {
-            "minecraft:parrot/variant": "blue"
-          }
-        }
-      }
-    },
-    "parrot_green": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:parrot",
-          "components": {
-            "minecraft:parrot/variant": "green"
-          }
-        }
-      }
-    },
-    "parrot_cyan": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:parrot",
-          "components": {
-            "minecraft:parrot/variant": "yellow_blue"
-          }
-        }
-      }
-    },
-    "parrot_gray": {
-      "trigger": "minecraft:tame_animal",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:parrot",
-          "components": {
-            "minecraft:parrot/variant": "gray"
-          }
-        }
-      }
-    }
-  },
-  "rewards": {
-    "experience": 100
-  }
+    "parent":  "pixelburen:cpt_red_herring/root",
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:parrot_spawn_egg"
+                             },
+                    "title":  {
+                                  "text":  "Vogelen met vrienden"
+                              },
+                    "description":  {
+                                        "text":  "Word bevriend met elke kleur papegaai.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false,
+                    "show_progress":  true
+                },
+    "criteria":  {
+                     "parrot_red":  {
+                                        "trigger":  "minecraft:tame_animal",
+                                        "conditions":  {
+                                                           "entity":  {
+                                                                          "type":  "minecraft:entity_properties",
+                                                                          "entity":  "this",
+                                                                          "predicate":  {
+                                                                                            "minecraft:entity_type":  "minecraft:parrot",
+                                                                                            "components":  {
+                                                                                                               "minecraft:parrot/variant":  "red_blue"
+                                                                                                           }
+                                                                                        }
+                                                                      }
+                                                       }
+                                    },
+                     "parrot_blue":  {
+                                         "trigger":  "minecraft:tame_animal",
+                                         "conditions":  {
+                                                            "entity":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "minecraft:entity_type":  "minecraft:parrot",
+                                                                                             "components":  {
+                                                                                                                "minecraft:parrot/variant":  "blue"
+                                                                                                            }
+                                                                                         }
+                                                                       }
+                                                        }
+                                     },
+                     "parrot_green":  {
+                                          "trigger":  "minecraft:tame_animal",
+                                          "conditions":  {
+                                                             "entity":  {
+                                                                            "type":  "minecraft:entity_properties",
+                                                                            "entity":  "this",
+                                                                            "predicate":  {
+                                                                                              "minecraft:entity_type":  "minecraft:parrot",
+                                                                                              "components":  {
+                                                                                                                 "minecraft:parrot/variant":  "green"
+                                                                                                             }
+                                                                                          }
+                                                                        }
+                                                         }
+                                      },
+                     "parrot_cyan":  {
+                                         "trigger":  "minecraft:tame_animal",
+                                         "conditions":  {
+                                                            "entity":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "minecraft:entity_type":  "minecraft:parrot",
+                                                                                             "components":  {
+                                                                                                                "minecraft:parrot/variant":  "yellow_blue"
+                                                                                                            }
+                                                                                         }
+                                                                       }
+                                                        }
+                                     },
+                     "parrot_gray":  {
+                                         "trigger":  "minecraft:tame_animal",
+                                         "conditions":  {
+                                                            "entity":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "minecraft:entity_type":  "minecraft:parrot",
+                                                                                             "components":  {
+                                                                                                                "minecraft:parrot/variant":  "gray"
+                                                                                                            }
+                                                                                         }
+                                                                       }
+                                                        }
+                                     }
+                 },
+    "rewards":  {
+                    "experience":  100
+                }
 }

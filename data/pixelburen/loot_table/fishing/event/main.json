@@ -7,9 +7,9 @@
           "type": "minecraft:item",
           "name": "minecraft:potion",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": { "potion": "minecraft:weakness" },
                 "minecraft:custom_data": { "pixelburen": { "event": "fishing_karma" } },
@@ -37,9 +37,9 @@
           "name": "minecraft:potion",
           "weight": -3,
           "quality": 1,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:potion_contents": { "potion": "minecraft:luck" },
                 "minecraft:custom_data": { "pixelburen": { "event": "too_lucky" } },

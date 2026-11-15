@@ -7,13 +7,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:fishing_rod",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": { "text": "Ancient Fishing Rod", "color": "green", "italic": false }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:unbreakable": { "show_in_tooltip": false }
               }

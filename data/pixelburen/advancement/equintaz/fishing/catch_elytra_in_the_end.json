@@ -1,41 +1,45 @@
 {
-  "parent": "pixelburen:equintaz/fishing/catch_fish_in_the_end",
-  "display": {
-    "frame": "goal",
-    "title": "Vliegvissen",
-    "description": {
-      "translate": "Vang een Elytra in %s.",
-      "with": [
-        {
-          "text": "the End",
-          "color": "light_purple"
-        }
-      ],
-      "color": "gray"
-    },
-    "icon": {
-      "id": "minecraft:elytra"
-    },
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "item": {
-          "items": "minecraft:elytra"
-        },
-        "player": {
-          "location": {
-            "dimension": "minecraft:the_end"
-          }
-        }
-      }
-    }
-  },
-  "rewards": {
-    "experience": 100
-  }
+    "parent":  "pixelburen:equintaz/fishing/catch_fish_in_the_end",
+    "display":  {
+                    "frame":  "goal",
+                    "title":  "Vliegvissen",
+                    "description":  {
+                                        "translate":  "Vang een Elytra in %s.",
+                                        "with":  [
+                                                     {
+                                                         "text":  "the End",
+                                                         "color":  "light_purple"
+                                                     }
+                                                 ],
+                                        "color":  "gray"
+                                    },
+                    "icon":  {
+                                 "id":  "minecraft:elytra"
+                             },
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "requirement":  {
+                                         "trigger":  "minecraft:fishing_rod_hooked",
+                                         "conditions":  {
+                                                            "item":  {
+                                                                         "items":  "minecraft:elytra"
+                                                                     },
+                                                            "player":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "location":  {
+                                                                                                              "dimension":  "minecraft:the_end"
+                                                                                                          }
+                                                                                         }
+                                                                       }
+                                                        }
+                                     }
+                 },
+    "rewards":  {
+                    "experience":  100
+                }
 }

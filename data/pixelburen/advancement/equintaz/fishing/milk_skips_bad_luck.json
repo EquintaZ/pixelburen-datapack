@@ -23,17 +23,15 @@
             "minecraft:milk_bucket"
           ]
         },
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "effects": {
-                "minecraft:unluck": {}
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "effects": {
+              "minecraft:unluck": {}
             }
           }
-        ]
+        }
       }
     }
   },

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potion",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Potion of Bad Luck",
                 "italic": false
@@ -20,9 +20,9 @@
           "type": "minecraft:item",
           "name": "minecraft:splash_potion",
           "weight": 9,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Splash Potion of Bad Luck",
                 "italic": false
@@ -31,9 +31,9 @@
           ]
         }
       ],
-      "functions": [
+      "modifier": [
         {
-          "function": "minecraft:set_components",
+          "type": "minecraft:set_components",
           "components": {
             "minecraft:potion_contents": {
               "potion": "minecraft:thick",

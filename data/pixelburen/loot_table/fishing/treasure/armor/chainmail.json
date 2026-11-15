@@ -6,36 +6,32 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:armor/chainmail",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.75,
                 "max": 0.9
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:powerhouse_armor"
-            }
+            "pixelburen:powerhouse_armor"
           ]
         },
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:armor/chainmail",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_damage",
+              "type": "minecraft:set_damage",
               "damage": {
+                "type": "minecraft:uniform",
                 "min": 0.45,
                 "max": 0.8
               }
             },
-            {
-              "function": "minecraft:reference",
-              "name": "pixelburen:small_starts_armor"
-            }
+            "pixelburen:small_starts_armor"
           ]
         }
       ]

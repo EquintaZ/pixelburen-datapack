@@ -14,10 +14,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stick",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -31,10 +32,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:tripwire_hook",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 2
               }
@@ -48,10 +50,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -61,10 +64,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rabbit_hide",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }

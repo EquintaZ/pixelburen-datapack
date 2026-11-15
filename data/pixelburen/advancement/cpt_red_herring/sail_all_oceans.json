@@ -1,142 +1,178 @@
 {
-  "parent": "pixelburen:cpt_red_herring/root",
-  "display": {
-    "icon": {
-      "id": "minecraft:spruce_chest_boat"
-    },
-    "title": {
-      "text": "Zeewaardig schip"
-    },
-    "description": {
-      "text": "Ontdek iedere oceaan in een boot... Pardon, schip.",
-      "color": "gray"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false,
-    "show_progress": true
-  },
-  "criteria": {
-    "explore_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_deep_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:deep_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_cold_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:cold_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_deep_cold_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:deep_cold_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_lukewarm_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:lukewarm_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_deep_lukewarm_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:deep_lukewarm_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_warm_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:warm_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_frozen_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:frozen_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    },
-    "explore_deep_frozen_ocean": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "biomes": "minecraft:deep_frozen_ocean"
-          },
-          "vehicle": {
-            "minecraft:entity_type": "#pixelburen:boat"
-          }
-        }
-      }
-    }
-  },
-  "rewards": {
-    "experience": 50
-  }
+    "parent":  "pixelburen:cpt_red_herring/root",
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:spruce_chest_boat"
+                             },
+                    "title":  {
+                                  "text":  "Zeewaardig schip"
+                              },
+                    "description":  {
+                                        "text":  "Ontdek iedere oceaan in een boot... Pardon, schip.",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false,
+                    "show_progress":  true
+                },
+    "criteria":  {
+                     "explore_ocean":  {
+                                           "trigger":  "minecraft:location",
+                                           "conditions":  {
+                                                              "player":  {
+                                                                             "type":  "minecraft:entity_properties",
+                                                                             "entity":  "this",
+                                                                             "predicate":  {
+                                                                                               "location":  {
+                                                                                                                "biomes":  "minecraft:ocean"
+                                                                                                            },
+                                                                                               "vehicle":  {
+                                                                                                               "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                           }
+                                                                                           }
+                                                                         }
+                                                          }
+                                       },
+                     "explore_deep_ocean":  {
+                                                "trigger":  "minecraft:location",
+                                                "conditions":  {
+                                                                   "player":  {
+                                                                                  "type":  "minecraft:entity_properties",
+                                                                                  "entity":  "this",
+                                                                                  "predicate":  {
+                                                                                                    "location":  {
+                                                                                                                     "biomes":  "minecraft:deep_ocean"
+                                                                                                                 },
+                                                                                                    "vehicle":  {
+                                                                                                                    "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                }
+                                                                                                }
+                                                                              }
+                                                               }
+                                            },
+                     "explore_cold_ocean":  {
+                                                "trigger":  "minecraft:location",
+                                                "conditions":  {
+                                                                   "player":  {
+                                                                                  "type":  "minecraft:entity_properties",
+                                                                                  "entity":  "this",
+                                                                                  "predicate":  {
+                                                                                                    "location":  {
+                                                                                                                     "biomes":  "minecraft:cold_ocean"
+                                                                                                                 },
+                                                                                                    "vehicle":  {
+                                                                                                                    "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                }
+                                                                                                }
+                                                                              }
+                                                               }
+                                            },
+                     "explore_deep_cold_ocean":  {
+                                                     "trigger":  "minecraft:location",
+                                                     "conditions":  {
+                                                                        "player":  {
+                                                                                       "type":  "minecraft:entity_properties",
+                                                                                       "entity":  "this",
+                                                                                       "predicate":  {
+                                                                                                         "location":  {
+                                                                                                                          "biomes":  "minecraft:deep_cold_ocean"
+                                                                                                                      },
+                                                                                                         "vehicle":  {
+                                                                                                                         "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                     }
+                                                                                                     }
+                                                                                   }
+                                                                    }
+                                                 },
+                     "explore_lukewarm_ocean":  {
+                                                    "trigger":  "minecraft:location",
+                                                    "conditions":  {
+                                                                       "player":  {
+                                                                                      "type":  "minecraft:entity_properties",
+                                                                                      "entity":  "this",
+                                                                                      "predicate":  {
+                                                                                                        "location":  {
+                                                                                                                         "biomes":  "minecraft:lukewarm_ocean"
+                                                                                                                     },
+                                                                                                        "vehicle":  {
+                                                                                                                        "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                    }
+                                                                                                    }
+                                                                                  }
+                                                                   }
+                                                },
+                     "explore_deep_lukewarm_ocean":  {
+                                                         "trigger":  "minecraft:location",
+                                                         "conditions":  {
+                                                                            "player":  {
+                                                                                           "type":  "minecraft:entity_properties",
+                                                                                           "entity":  "this",
+                                                                                           "predicate":  {
+                                                                                                             "location":  {
+                                                                                                                              "biomes":  "minecraft:deep_lukewarm_ocean"
+                                                                                                                          },
+                                                                                                             "vehicle":  {
+                                                                                                                             "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                         }
+                                                                                                         }
+                                                                                       }
+                                                                        }
+                                                     },
+                     "explore_warm_ocean":  {
+                                                "trigger":  "minecraft:location",
+                                                "conditions":  {
+                                                                   "player":  {
+                                                                                  "type":  "minecraft:entity_properties",
+                                                                                  "entity":  "this",
+                                                                                  "predicate":  {
+                                                                                                    "location":  {
+                                                                                                                     "biomes":  "minecraft:warm_ocean"
+                                                                                                                 },
+                                                                                                    "vehicle":  {
+                                                                                                                    "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                }
+                                                                                                }
+                                                                              }
+                                                               }
+                                            },
+                     "explore_frozen_ocean":  {
+                                                  "trigger":  "minecraft:location",
+                                                  "conditions":  {
+                                                                     "player":  {
+                                                                                    "type":  "minecraft:entity_properties",
+                                                                                    "entity":  "this",
+                                                                                    "predicate":  {
+                                                                                                      "location":  {
+                                                                                                                       "biomes":  "minecraft:frozen_ocean"
+                                                                                                                   },
+                                                                                                      "vehicle":  {
+                                                                                                                      "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                  }
+                                                                                                  }
+                                                                                }
+                                                                 }
+                                              },
+                     "explore_deep_frozen_ocean":  {
+                                                       "trigger":  "minecraft:location",
+                                                       "conditions":  {
+                                                                          "player":  {
+                                                                                         "type":  "minecraft:entity_properties",
+                                                                                         "entity":  "this",
+                                                                                         "predicate":  {
+                                                                                                           "location":  {
+                                                                                                                            "biomes":  "minecraft:deep_frozen_ocean"
+                                                                                                                        },
+                                                                                                           "vehicle":  {
+                                                                                                                           "minecraft:entity_type":  "#pixelburen:boat"
+                                                                                                                       }
+                                                                                                       }
+                                                                                     }
+                                                                      }
+                                                   }
+                 },
+    "rewards":  {
+                    "experience":  50
+                }
 }

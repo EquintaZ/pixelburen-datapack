@@ -7,10 +7,11 @@
           "type": "minecraft:item",
           "name": "minecraft:end_stone",
           "weight": 5,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 8,
                 "max": 16
               }
@@ -21,10 +22,11 @@
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 3,
                 "max": 6
               }
@@ -34,10 +36,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chorus_flower",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -48,10 +51,11 @@
           "type": "minecraft:item",
           "name": "minecraft:end_rod",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 4,
                 "max": 8
               }
@@ -61,10 +65,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:obsidian",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 4
               }
@@ -75,32 +80,37 @@
           "type": "minecraft:item",
           "name": "minecraft:chorus_fruit",
           "weight": 4,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 8,
                 "max": 16
               }
             },
             {
-              "function": "minecraft:furnace_smelt",
-              "conditions": [
+              "type": "minecraft:furnace_smelt",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
                 {
-                  "condition": "minecraft:random_chance",
+                  "type": "minecraft:random_chance",
                   "chance": 0.65
                 }
               ]
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:shulker_shell",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
                 "max": 4
               }

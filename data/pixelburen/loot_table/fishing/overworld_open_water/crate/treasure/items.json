@@ -7,10 +7,11 @@
           "type": "minecraft:item",
           "name": "minecraft:experience_bottle",
           "weight": 3,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 6,
                 "max": 10
               }
@@ -21,10 +22,11 @@
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -35,10 +37,11 @@
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
           "weight": 2,
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_count",
+              "type": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 2,
                 "max": 3
               }
@@ -52,9 +55,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:water_breathing"
             }
           ]
@@ -62,9 +65,9 @@
         {
           "type": "minecraft:loot_table",
           "value": "pixelburen:potions",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_potion",
+              "type": "minecraft:set_potion",
               "id": "minecraft:luck"
             }
           ]

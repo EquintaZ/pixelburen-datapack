@@ -1,40 +1,44 @@
 {
-  "parent": "pixelburen:epic/brew_potion",
-  "display": {
-    "icon": {
-      "id": "minecraft:player_head",
-      "components": {
-        "minecraft:profile": {
-          "properties": [
-            {
-              "name": "textures",
-              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhODQ2MTFjOGM4OTU4MzM2ZjY0ZDU4ZGMyMDljN2FiOTU4ZGRkOTlkMmY1ODc2ZGFkNzI2M2Y3MGVjZWIyNyJ9fX0="
-            }
-          ]
-        }
-      }
-    },
-    "title": {
-      "text": "Wilde hotdog"
-    },
-    "description": {
-      "text": "Samen met Epic opgegeten?",
-      "color": "gray"
-    },
-    "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "minecraft:entity_type": "minecraft:wolf"
-        }
-      }
-    }
-  },
-  "sends_telemetry_event": true
+    "parent":  "pixelburen:epic/brew_potion",
+    "display":  {
+                    "icon":  {
+                                 "id":  "minecraft:player_head",
+                                 "components":  {
+                                                    "minecraft:profile":  {
+                                                                              "properties":  [
+                                                                                                 {
+                                                                                                     "name":  "textures",
+                                                                                                     "value":  "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFhODQ2MTFjOGM4OTU4MzM2ZjY0ZDU4ZGMyMDljN2FiOTU4ZGRkOTlkMmY1ODc2ZGFkNzI2M2Y3MGVjZWIyNyJ9fX0="
+                                                                                                 }
+                                                                                             ]
+                                                                          }
+                                                }
+                             },
+                    "title":  {
+                                  "text":  "Wilde hotdog"
+                              },
+                    "description":  {
+                                        "text":  "Samen met Epic opgegeten?",
+                                        "color":  "gray"
+                                    },
+                    "frame":  "task",
+                    "show_toast":  false,
+                    "announce_to_chat":  true,
+                    "hidden":  false
+                },
+    "criteria":  {
+                     "requirement":  {
+                                         "trigger":  "minecraft:player_killed_entity",
+                                         "conditions":  {
+                                                            "entity":  {
+                                                                           "type":  "minecraft:entity_properties",
+                                                                           "entity":  "this",
+                                                                           "predicate":  {
+                                                                                             "minecraft:entity_type":  "minecraft:wolf"
+                                                                                         }
+                                                                       }
+                                                        }
+                                     }
+                 },
+    "sends_telemetry_event":  true
 }

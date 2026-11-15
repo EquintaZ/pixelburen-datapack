@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:barrel",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Ender Fishing Crate",
                 "color": "#A000A0",
@@ -16,7 +16,7 @@
               }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:container_loot": {
                   "loot_table": "pixelburen:fishing/the_end/crate/main"

@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:player_head",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:profile": {
                   "properties": {
@@ -20,11 +20,11 @@
               }
             },
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": { "text": "Tropical Fish Head", "color": "yellow", "italic": false }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "mode": "append",
               "lore": [
                 { "text": "Obtained from:", "color": "#888888", "italic": false },

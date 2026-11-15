@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_gravel",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:block_entity_data": {
                   "id": "minecraft:brushable_block",
@@ -21,9 +21,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:suspicious_sand",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:block_entity_data": {
                   "id": "minecraft:brushable_block",

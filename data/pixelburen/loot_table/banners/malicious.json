@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lime_banner",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_name",
+              "type": "minecraft:set_name",
               "name": {
                 "text": "Old Banner",
                 "color": "yellow",
@@ -16,7 +16,7 @@
               }
             },
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:banner_patterns": [
                   { "pattern": "minecraft:triangle_top",           "color": "black"  },
