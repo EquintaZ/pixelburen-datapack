@@ -29,7 +29,9 @@
             "minecraft:type_specific/player": {
               "looking_at": {
                 "minecraft:entity_tags": {
-                  "all_of": ["pixelburen.epic"]
+                  "all_of": [
+                    "pixelburen.epic"
+                  ]
                 }
               }
             }

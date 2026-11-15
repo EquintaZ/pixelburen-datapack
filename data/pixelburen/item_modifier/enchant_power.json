@@ -1,14 +1,14 @@
 {
-    "type":  "minecraft:sequence",
-    "functions":  [
-                      {
-                          "type":  "minecraft:enchant_with_levels",
-                          "levels":  {
-                                         "type":  "minecraft:uniform",
-                                         "min":  15,
-                                         "max":  30
-                                     },
-                          "options":  "#minecraft:tradeable"
-                      }
-                  ]
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:enchant_with_levels",
+      "levels": {
+        "type": "minecraft:uniform",
+        "min": 15,
+        "max": 30
+      },
+      "options": "#minecraft:tradeable"
+    }
+  ]
 }

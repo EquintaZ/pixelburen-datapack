@@ -15,19 +15,7 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:tools/golden",
           "modifier": [
-            {
-              "type": "minecraft:sequence",
-              "functions": "pixelburen:enchant_mid",
-              "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.1
-                }
-              ]
-              }
-            }
+            "pixelburen:enchant_mid"
           ]
         },
         {
@@ -38,19 +26,7 @@
           "type": "minecraft:loot_table",
           "value": "pixelburen:junk/armor/golden",
           "modifier": [
-            {
-              "type": "minecraft:sequence",
-              "functions": "pixelburen:enchant_mid",
-              "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.1
-                }
-              ]
-              }
-            }
+            "pixelburen:enchant_mid"
           ]
         },
         {

@@ -47,13 +47,8 @@
             {
               "type": "minecraft:furnace_smelt",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.15
-                }
-              ]
+                "type": "minecraft:random_chance",
+                "chance": 0.15
               }
             }
           ]
@@ -74,13 +69,8 @@
             {
               "type": "minecraft:furnace_smelt",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.35
-                }
-              ]
+                "type": "minecraft:random_chance",
+                "chance": 0.35
               }
             }
           ]
@@ -101,13 +91,8 @@
             {
               "type": "minecraft:furnace_smelt",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.15
-                }
-              ]
+                "type": "minecraft:random_chance",
+                "chance": 0.15
               }
             }
           ]

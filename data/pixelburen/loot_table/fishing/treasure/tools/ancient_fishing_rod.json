@@ -10,12 +10,18 @@
           "modifier": [
             {
               "type": "minecraft:set_name",
-              "name": { "text": "Ancient Fishing Rod", "color": "green", "italic": false }
+              "name": {
+                "text": "Ancient Fishing Rod",
+                "color": "green",
+                "italic": false
+              }
             },
             {
               "type": "minecraft:set_components",
               "components": {
-                "minecraft:unbreakable": { "show_in_tooltip": false }
+                "minecraft:unbreakable": {
+                  "show_in_tooltip": false
+                }
               }
             }
           ]

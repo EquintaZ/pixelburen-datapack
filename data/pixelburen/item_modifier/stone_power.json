@@ -1,12 +1,12 @@
 {
-    "type":  "minecraft:sequence",
-    "functions":  [
-                      "pixelburen:enchant_power",
-                      {
-                          "type":  "minecraft:set_enchantments",
-                          "enchantments":  {
-                                               "minecraft:vanishing_curse":  0
-                                           }
-                      }
-                  ]
+  "type": "minecraft:sequence",
+  "functions": [
+    "pixelburen:enchant_power",
+    {
+      "type": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:vanishing_curse": 0
+      }
+    }
+  ]
 }

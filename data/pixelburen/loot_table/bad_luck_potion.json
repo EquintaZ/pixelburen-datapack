@@ -39,7 +39,11 @@
               "potion": "minecraft:thick",
               "custom_color": 12624973,
               "custom_effects": [
-                { "id": "minecraft:unluck", "duration": 6000, "amplifier": 4 }
+                {
+                  "id": "minecraft:unluck",
+                  "duration": 6000,
+                  "amplifier": 4
+                }
               ]
             }
           }

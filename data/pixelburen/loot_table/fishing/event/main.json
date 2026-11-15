@@ -11,9 +11,17 @@
             {
               "type": "minecraft:set_components",
               "components": {
-                "minecraft:potion_contents": { "potion": "minecraft:weakness" },
-                "minecraft:custom_data": { "pixelburen": { "event": "fishing_karma" } },
-                "minecraft:tooltip_display": { "hide_tooltip": true }
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:weakness"
+                },
+                "minecraft:custom_data": {
+                  "pixelburen": {
+                    "event": "fishing_karma"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": true
+                }
               }
             }
           ]
@@ -41,9 +49,17 @@
             {
               "type": "minecraft:set_components",
               "components": {
-                "minecraft:potion_contents": { "potion": "minecraft:luck" },
-                "minecraft:custom_data": { "pixelburen": { "event": "too_lucky" } },
-                "minecraft:tooltip_display": { "hide_tooltip": true }
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:luck"
+                },
+                "minecraft:custom_data": {
+                  "pixelburen": {
+                    "event": "too_lucky"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hide_tooltip": true
+                }
               }
             }
           ]

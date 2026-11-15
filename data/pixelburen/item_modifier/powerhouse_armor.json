@@ -1,12 +1,12 @@
 {
-    "type":  "minecraft:sequence",
-    "functions":  [
-                      "pixelburen:powerhouse",
-                      {
-                          "type":  "minecraft:set_enchantments",
-                          "enchantments":  {
-                                               "minecraft:binding_curse":  0
-                                           }
-                      }
-                  ]
+  "type": "minecraft:sequence",
+  "functions": [
+    "pixelburen:powerhouse",
+    {
+      "type": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:binding_curse": 0
+      }
+    }
+  ]
 }

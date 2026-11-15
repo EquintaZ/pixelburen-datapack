@@ -39,13 +39,8 @@
             {
               "type": "minecraft:furnace_smelt",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.7
-                }
-              ]
+                "type": "minecraft:random_chance",
+                "chance": 0.7
               }
             },
             {
@@ -66,13 +61,8 @@
             {
               "type": "minecraft:furnace_smelt",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:random_chance",
-                  "chance": 0.55
-                }
-              ]
+                "type": "minecraft:random_chance",
+                "chance": 0.55
               }
             },
             {

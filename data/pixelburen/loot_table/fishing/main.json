@@ -11,15 +11,10 @@
               "type": "minecraft:loot_table",
               "value": "pixelburen:fishing/the_end/main",
               "condition": {
-                "type": "minecraft:all_of",
-                "terms": [
-                {
-                  "type": "minecraft:location_check",
-                  "predicate": {
-                    "dimension": "minecraft:the_end"
-                  }
+                "type": "minecraft:location_check",
+                "predicate": {
+                  "dimension": "minecraft:the_end"
                 }
-              ]
               }
             },
             {

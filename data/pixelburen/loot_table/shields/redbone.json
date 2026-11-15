@@ -19,18 +19,44 @@
               "type": "minecraft:set_components",
               "components": {
                 "minecraft:banner_patterns": [
-                  { "pattern": "minecraft:flower",           "color": "red"   },
-                  { "pattern": "minecraft:flower",           "color": "red"   },
-                  { "pattern": "minecraft:circle",           "color": "red"   },
-                  { "pattern": "minecraft:stripe_middle",    "color": "red"   },
-                  { "pattern": "minecraft:stripe_center",    "color": "white" },
-                  { "pattern": "minecraft:triangles_bottom", "color": "red"   },
-                  { "pattern": "minecraft:triangles_top",    "color": "red"   },
-                  { "pattern": "minecraft:curly_border",     "color": "red"   }
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:flower",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_middle",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:stripe_center",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_bottom",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:triangles_top",
+                    "color": "red"
+                  },
+                  {
+                    "pattern": "minecraft:curly_border",
+                    "color": "red"
+                  }
                 ],
                 "minecraft:base_color": "white",
                 "minecraft:tooltip_display": {
-                  "hidden_components": ["minecraft:banner_patterns"]
+                  "hidden_components": [
+                    "minecraft:banner_patterns"
+                  ]
                 }
               }
             }
