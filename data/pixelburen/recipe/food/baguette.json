@@ -1,0 +1,166 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  #",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    "#": "minecraft:bread"
+  },
+  "result": {
+    "id": "minecraft:wooden_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": {
+        "text": "Baguette",
+        "italic": false
+      },
+      "minecraft:item_model": "pixelburen:baguette",
+      "minecraft:max_damage": 3,
+      "minecraft:damage": 0,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:base_attack_damage",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:base_attack_speed",
+          "amount": -3,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ],
+      "minecraft:food": {
+        "nutrition": 5,
+        "saturation": 6,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "eat",
+        "has_consume_particles": true,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "duration": 100,
+                "amplifier": 0
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:wooden_sword",
+        "count": 1,
+        "components": {
+          "minecraft:item_name": {
+            "text": "Baguette",
+            "italic": false
+          },
+          "minecraft:item_model": "pixelburen:baguette",
+          "minecraft:max_damage": 3,
+          "minecraft:damage": 1,
+          "minecraft:attribute_modifiers": [
+            {
+              "type": "minecraft:attack_damage",
+              "id": "minecraft:base_attack_damage",
+              "amount": 5,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+              "type": "minecraft:attack_speed",
+              "id": "minecraft:base_attack_speed",
+              "amount": -3,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ],
+          "minecraft:food": {
+            "nutrition": 5,
+            "saturation": 6,
+            "can_always_eat": true
+          },
+          "minecraft:consumable": {
+            "consume_seconds": 1.6,
+            "animation": "eat",
+            "has_consume_particles": true,
+            "on_consume_effects": [
+              {
+                "type": "minecraft:apply_effects",
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 100,
+                    "amplifier": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "minecraft:use_remainder": {
+            "id": "minecraft:wooden_sword",
+            "count": 1,
+            "components": {
+              "minecraft:item_name": {
+                "text": "Baguette",
+                "italic": false
+              },
+              "minecraft:item_model": "pixelburen:baguette",
+              "minecraft:max_damage": 3,
+              "minecraft:damage": 2,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:attack_damage",
+                  "id": "minecraft:base_attack_damage",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:attack_speed",
+                  "id": "minecraft:base_attack_speed",
+                  "amount": -3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:food": {
+                "nutrition": 5,
+                "saturation": 6,
+                "can_always_eat": true
+              },
+              "minecraft:consumable": {
+                "consume_seconds": 1.6,
+                "animation": "eat",
+                "has_consume_particles": true,
+                "on_consume_effects": [
+                  {
+                    "type": "minecraft:apply_effects",
+                    "effects": [
+                      {
+                        "id": "minecraft:regeneration",
+                        "duration": 100,
+                        "amplifier": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "show_notification": true
+}
