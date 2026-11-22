@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "G# ",
+    " # ",
+    "###"
+  ],
+  "key": {
+    "G": "minecraft:gold_nugget",
+    "#": "minecraft:gray_wool"
+  },
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Toverhoed"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Bibbidi-Bobbidi-Boo",
+          "color": "gray",
+          "italic": true
+        }
+      ],
+      "minecraft:item_model": "pixelburen:hat/wizard_hat",
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:armor",
+          "amount": 1,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:attack_speed",
+          "id": "pixelburen:attack_speed",
+          "amount": 1,
+          "operation": "add_value"
+        }
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": true
+}
